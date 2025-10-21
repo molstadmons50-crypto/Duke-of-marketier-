@@ -1,0 +1,1001 @@
+{
+  "SaaS & Productivity Tools": {
+    "hooks": [
+      "When you realize you've been doing [task] manually this whole time",
+      "POV: You just discovered the tool that saves you 10 hours/week",
+      "Stop wasting time on [pain point] - here's what actually works",
+      "This changed how I work forever and nobody talks about it",
+      "The productivity hack everyone's sleeping on",
+      "When [software] does in 5 minutes what took you 3 hours",
+      "Nobody told me this tool existed until now",
+      "POV: Your workflow before vs after [product]",
+      "If you're still doing [task] manually, watch this",
+      "This is why successful people always seem to have more time",
+      "The one tool that 10x'd my productivity overnight",
+      "When you find out this automation was possible all along"
+    ],
+    "emotions": ["relief", "FOMO", "productivity-flex", "frustration-to-joy", "empowerment", "disbelief"],
+    "viral_formats": [
+      "before/after comparison",
+      "time-waste revelation",
+      "feature showcase progression",
+      "productivity transformation",
+      "automation wow-moment",
+      "workflow optimization reveal",
+      "manual vs automated contrast",
+      "hidden tool discovery"
+    ],
+    "pain_points": [
+      "Spending hours on repetitive tasks",
+      "Context switching between 10+ tools",
+      "Missing deadlines due to disorganization",
+      "Losing information across platforms",
+      "Manual data entry errors",
+      "Inefficient team collaboration",
+      "No visibility into project progress",
+      "Wasting time in unnecessary meetings",
+      "Difficult to track billable hours",
+      "Overwhelming to-do lists"
+    ],
+    "value_propositions": [
+      "Save X hours per week",
+      "Automate repetitive workflows",
+      "All-in-one solution (reduce tool sprawl)",
+      "Real-time collaboration",
+      "AI-powered efficiency",
+      "Seamless integrations",
+      "Zero learning curve",
+      "Instant ROI visibility"
+    ]
+  },
+
+  "E-commerce & Retail": {
+    "hooks": [
+      "When you realize you're paying way too much for [product]",
+      "POV: You discover the brand everyone's gatekeeping",
+      "Stop scrolling - this is actually worth it",
+      "This is why [product] keeps selling out",
+      "Nobody talks about this brand and it's criminal",
+      "When the quality actually matches the hype",
+      "POV: You find the perfect [product] after trying 10 others",
+      "If you haven't tried this yet, you're missing out",
+      "This changed my [routine/life] and I'm never going back",
+      "The [product] that went viral for a reason",
+      "When free shipping + this price = instant buy",
+      "Stop buying from [competitor] until you see this"
+    ],
+    "emotions": ["desire", "FOMO", "exclusivity", "satisfaction", "discovery-excitement", "deal-hunting-thrill"],
+    "viral_formats": [
+      "unboxing reveal",
+      "before/after results",
+      "haul + review",
+      "hidden gem discovery",
+      "comparison vs expensive alternative",
+      "limited drop announcement",
+      "transformation showcase",
+      "social proof montage"
+    ],
+    "pain_points": [
+      "Overpaying for mediocre quality",
+      "Products not matching descriptions",
+      "Slow shipping times",
+      "Difficult return processes",
+      "Finding the right size/fit",
+      "Lack of authentic reviews",
+      "Analysis paralysis from too many options",
+      "Missing out on limited releases",
+      "Hidden fees at checkout",
+      "Sustainability concerns"
+    ],
+    "value_propositions": [
+      "Premium quality at affordable price",
+      "Sustainable/ethical production",
+      "Fast + free shipping",
+      "Easy returns/exchanges",
+      "Exclusive/limited availability",
+      "Verified customer reviews",
+      "Perfect fit guarantee",
+      "Lifetime warranty"
+    ]
+  },
+
+  "Health & Wellness": {
+    "hooks": [
+      "Nobody talks about this health hack and it changed everything",
+      "POV: You finally find what actually works",
+      "When you realize you've been doing [health habit] wrong",
+      "Stop wasting money on supplements that don't work",
+      "This is what doctors don't tell you about [condition]",
+      "The wellness routine that actually stuck",
+      "When science backs up what you've been feeling",
+      "POV: Month 1 vs Month 3 of [wellness habit]",
+      "If you struggle with [health issue], watch this",
+      "The one change that transformed my health",
+      "When you finally prioritize yourself and this happens",
+      "Stop ignoring these signs your body is giving you"
+    ],
+    "emotions": ["hope", "transformation", "empowerment", "relief", "validation", "motivation"],
+    "viral_formats": [
+      "transformation journey",
+      "myth-busting",
+      "science-backed explanation",
+      "daily routine reveal",
+      "before/after results",
+      "symptom relief story",
+      "expert insight share",
+      "community support moment"
+    ],
+    "pain_points": [
+      "Tried everything without results",
+      "Conflicting health advice",
+      "Lack of energy/motivation",
+      "Chronic pain or discomfort",
+      "Poor sleep quality",
+      "Stress and burnout",
+      "Weight management struggles",
+      "Mental health challenges",
+      "Expensive treatments with no improvement",
+      "Feeling unheard by healthcare providers"
+    ],
+    "value_propositions": [
+      "Science-backed results",
+      "Natural/holistic approach",
+      "Personalized solutions",
+      "Fast symptom relief",
+      "Long-term sustainable change",
+      "Affordable alternative to medication",
+      "Community support included",
+      "Expert-guided program"
+    ]
+  },
+
+  "Education & Online Courses": {
+    "hooks": [
+      "When you realize traditional education is a scam",
+      "POV: You learn more in 30 days than 4 years of college",
+      "This skill changed my career and nobody teaches it in school",
+      "Stop wasting money on degrees - learn this instead",
+      "The course that actually got me hired",
+      "When the ROI hits different than student loans",
+      "POV: Self-taught vs formally educated in [field]",
+      "If you want to [career goal], this is your shortcut",
+      "This is how I learned [skill] in record time",
+      "The education system doesn't want you to know this",
+      "When you go from beginner to pro in weeks, not years",
+      "Stop gatekeeping - this course is actually worth it"
+    ],
+    "emotions": ["empowerment", "FOMO", "career-ambition", "frustration-with-system", "achievement", "liberation"],
+    "viral_formats": [
+      "career transformation story",
+      "skill showcase progression",
+      "traditional vs alternative path",
+      "income increase reveal",
+      "portfolio/results demonstration",
+      "learning journey time-lapse",
+      "job offer announcement",
+      "education system critique"
+    ],
+    "pain_points": [
+      "Expensive tuition with no job guarantee",
+      "Outdated curriculum",
+      "Lack of practical skills",
+      "No portfolio to show employers",
+      "Difficulty switching careers",
+      "Self-doubt about ability to learn",
+      "Information overload (too many options)",
+      "No mentorship or support",
+      "Can't afford to quit job for school",
+      "Imposter syndrome"
+    ],
+    "value_propositions": [
+      "Learn job-ready skills fast",
+      "Fraction of the cost of degree",
+      "Portfolio projects included",
+      "Industry expert instructors",
+      "Lifetime access + updates",
+      "Money-back guarantee",
+      "Community + networking",
+      "Career placement support"
+    ]
+  },
+
+  "Finance & Fintech": {
+    "hooks": [
+      "When you realize you've been losing money this whole time",
+      "POV: You check your investments after using [tool]",
+      "Stop letting banks profit off your ignorance",
+      "This is how rich people actually manage money",
+      "The finance hack nobody teaches in school",
+      "When you automate your savings and this happens",
+      "POV: Your bank balance before vs after [financial tool]",
+      "If you're not doing this with your money, you're losing",
+      "This changed my relationship with money forever",
+      "The one financial decision that changed everything",
+      "When you realize financial freedom is actually possible",
+      "Stop working for money - make money work for you"
+    ],
+    "emotions": ["security", "FOMO", "empowerment", "anxiety-relief", "aspirational", "regret-avoidance"],
+    "viral_formats": [
+      "wealth building journey",
+      "compound interest visualization",
+      "budget transformation",
+      "investment returns reveal",
+      "debt payoff story",
+      "financial independence timeline",
+      "money mistake confession + fix",
+      "passive income showcase"
+    ],
+    "pain_points": [
+      "Living paycheck to paycheck",
+      "Overwhelming debt",
+      "No emergency fund",
+      "Fear of investing",
+      "High bank fees",
+      "Poor credit score",
+      "No retirement savings",
+      "Impulse spending habits",
+      "Confusion about taxes",
+      "Financial illiteracy"
+    ],
+    "value_propositions": [
+      "Automated savings/investing",
+      "Zero fees/commissions",
+      "Higher interest rates",
+      "Easy-to-understand insights",
+      "Real-time spending tracking",
+      "Personalized financial advice",
+      "Credit score improvement",
+      "Tax optimization built-in"
+    ]
+  },
+
+  "Marketing & Social Media Tools": {
+    "hooks": [
+      "When you realize you've been doing social media marketing wrong",
+      "POV: Your engagement after using [tool] for one week",
+      "Stop posting without a strategy - here's what works",
+      "This is how creators with 100K+ followers manage content",
+      "The social media tool every marketer is secretly using",
+      "When automation saves you 15 hours/week of content work",
+      "POV: Your analytics before vs after [tool]",
+      "If you're manually scheduling posts, you're wasting time",
+      "This changed my content strategy overnight",
+      "The one tool that 10x'd my social media growth",
+      "When your content finally goes viral and here's why",
+      "Stop guessing what works - data doesn't lie"
+    ],
+    "emotions": ["growth-excitement", "FOMO", "validation", "relief", "competitive-advantage", "creator-pride"],
+    "viral_formats": [
+      "growth chart reveal",
+      "content batch workflow",
+      "engagement spike story",
+      "before/after metrics",
+      "viral post breakdown",
+      "automation showcase",
+      "competitor comparison",
+      "ROI demonstration"
+    ],
+    "pain_points": [
+      "Inconsistent posting schedule",
+      "Low engagement rates",
+      "No content strategy",
+      "Spending too much time on social media",
+      "Difficulty creating content at scale",
+      "Can't track ROI",
+      "Managing multiple platforms is overwhelming",
+      "Content ideas running dry",
+      "Algorithm changes killing reach",
+      "No team collaboration tools"
+    ],
+    "value_propositions": [
+      "Schedule weeks of content in minutes",
+      "AI-powered content suggestions",
+      "Multi-platform management",
+      "Deep analytics + insights",
+      "Team collaboration features",
+      "Automated posting optimization",
+      "Content calendar visualization",
+      "Competitor tracking"
+    ]
+  },
+
+  "Real Estate": {
+    "hooks": [
+      "When you find out what your rent could've bought you",
+      "POV: You discover the property everyone's sleeping on",
+      "Stop renting - here's how to actually afford a home",
+      "This is what real estate agents don't tell you",
+      "The property search tool that changed house hunting",
+      "When you see the neighborhood before vs after investing",
+      "POV: Your investment portfolio after adding real estate",
+      "If you're not doing this, you're overpaying for property",
+      "This changed my approach to homeownership forever",
+      "The one real estate move that built generational wealth",
+      "When location data reveals the next hot neighborhood",
+      "Stop making emotional decisions - here's what data says"
+    ],
+    "emotions": ["aspiration", "FOMO", "security", "empowerment", "investment-savvy", "homeowner-pride"],
+    "viral_formats": [
+      "property transformation reveal",
+      "rent vs buy calculator shock",
+      "investment ROI showcase",
+      "neighborhood appreciation data",
+      "home tour + numbers breakdown",
+      "first-time buyer journey",
+      "market trend prediction",
+      "hidden deal discovery"
+    ],
+    "pain_points": [
+      "Can't afford down payment",
+      "Overwhelmed by property search",
+      "Fear of making wrong investment",
+      "Don't understand mortgage options",
+      "Missing out on good deals",
+      "No transparency in pricing",
+      "Dealing with difficult landlords",
+      "Property management stress",
+      "Unclear market conditions",
+      "High agent commissions"
+    ],
+    "value_propositions": [
+      "Instant property valuation",
+      "Hidden listing discovery",
+      "Neighborhood analytics",
+      "Virtual tours + 3D walkthroughs",
+      "Mortgage pre-qualification",
+      "Investment ROI calculator",
+      "Direct owner contact",
+      "Market trend predictions"
+    ]
+  },
+
+  "Food & Beverage": {
+    "hooks": [
+      "When you taste this and realize what you've been missing",
+      "POV: You discover the recipe everyone's gatekeeping",
+      "Stop ordering takeout - this is easier and cheaper",
+      "This is why restaurants won't share their [recipe]",
+      "The food hack that changed meal prep forever",
+      "When homemade actually tastes better than restaurant",
+      "POV: Your grocery bill before vs after meal planning",
+      "If you haven't tried this combo, you're missing out",
+      "This changed how I think about [ingredient/dish]",
+      "The one kitchen tool that replaced five others",
+      "When you realize cooking doesn't have to be hard",
+      "Stop wasting food - here's the system that works"
+    ],
+    "emotions": ["satisfaction", "discovery-joy", "comfort", "pride", "health-conscious", "cultural-connection"],
+    "viral_formats": [
+      "recipe reveal + taste test",
+      "meal prep time-lapse",
+      "ingredient swap surprise",
+      "cost comparison breakdown",
+      "cooking hack demonstration",
+      "restaurant vs homemade",
+      "dietary transformation",
+      "cultural food journey"
+    ],
+    "pain_points": [
+      "No time to cook healthy meals",
+      "Expensive grocery bills",
+      "Food waste",
+      "Boring repetitive meals",
+      "Don't know how to cook",
+      "Dietary restrictions limiting options",
+      "Meal planning overwhelm",
+      "Delivery fees adding up",
+      "Inconsistent portion sizes",
+      "Finding quality ingredients"
+    ],
+    "value_propositions": [
+      "Ready in under 30 minutes",
+      "Saves money vs eating out",
+      "Customizable for dietary needs",
+      "Pre-portioned ingredients",
+      "Step-by-step video instructions",
+      "Zero food waste",
+      "Restaurant-quality at home",
+      "Subscription flexibility"
+    ]
+  },
+
+  "Fitness & Personal Training": {
+    "hooks": [
+      "When you see results in 30 days doing this at home",
+      "POV: You realize gym memberships are a waste",
+      "Stop doing [exercise] wrong - here's the right way",
+      "This is what trainers charge $200/session to teach you",
+      "The workout that actually gave me visible results",
+      "When consistency finally clicks and this happens",
+      "POV: Month 1 vs Month 6 of [program]",
+      "If you're not seeing results, you're training wrong",
+      "This changed my body composition without extreme dieting",
+      "The one workout that replaced an hour at the gym",
+      "When you transform your body without giving up [food]",
+      "Stop making excuses - here's proof it's possible"
+    ],
+    "emotions": ["motivation", "transformation-pride", "determination", "body-confidence", "achievement", "empowerment"],
+    "viral_formats": [
+      "transformation timeline",
+      "workout demonstration",
+      "form correction",
+      "progress photo series",
+      "fitness challenge completion",
+      "at-home vs gym comparison",
+      "body composition change",
+      "strength milestone celebration"
+    ],
+    "pain_points": [
+      "No time for gym",
+      "Expensive personal training",
+      "Feeling intimidated at gym",
+      "Not seeing results despite effort",
+      "Injury concerns",
+      "Lack of motivation/accountability",
+      "Don't know where to start",
+      "Plateau in progress",
+      "Post-workout soreness",
+      "Balancing fitness with busy schedule"
+    ],
+    "value_propositions": [
+      "Work out anywhere, anytime",
+      "Personalized training plans",
+      "Progress tracking built-in",
+      "Expert form guidance",
+      "Injury prevention focus",
+      "Community accountability",
+      "Flexible workout lengths",
+      "Results in weeks, not months"
+    ]
+  },
+
+  "Mental Health & Therapy": {
+    "hooks": [
+      "When you realize therapy doesn't have to cost $200/session",
+      "POV: Your mental health journey before vs after getting help",
+      "Stop suffering in silence - here's what actually helps",
+      "This is what changed when I finally prioritized my mental health",
+      "The therapy tool that made sessions actually affordable",
+      "When you find the right therapist on the first try",
+      "POV: Learning coping mechanisms that actually work",
+      "If you've been putting off therapy, this is your sign",
+      "This changed how I handle anxiety/depression forever",
+      "The one practice that improved my mental health daily",
+      "When you realize healing is possible and worth it",
+      "Stop normalizing burnout - here's what helped me"
+    ],
+    "emotions": ["hope", "relief", "validation", "healing", "self-compassion", "breakthrough-moment"],
+    "viral_formats": [
+      "mental health journey story",
+      "coping mechanism demonstration",
+      "therapy session insights",
+      "before/after mental state",
+      "destigmatization message",
+      "self-care routine reveal",
+      "breakthrough moment share",
+      "community support highlight"
+    ],
+    "pain_points": [
+      "Therapy too expensive",
+      "Long waitlists for therapists",
+      "Stigma around seeking help",
+      "Previous therapy didn't work",
+      "No access to mental health services",
+      "Difficulty finding right therapist match",
+      "Insurance doesn't cover therapy",
+      "Scheduling conflicts",
+      "Fear of judgment",
+      "Don't know where to start"
+    ],
+    "value_propositions": [
+      "Affordable therapy access",
+      "Licensed professional therapists",
+      "Flexible scheduling (24/7)",
+      "Complete privacy/confidentiality",
+      "Specialized therapist matching",
+      "Insurance accepted",
+      "Text/video/phone options",
+      "Evidence-based approaches"
+    ]
+  },
+
+  "Travel & Hospitality": {
+    "hooks": [
+      "When you book this and pay half what everyone else paid",
+      "POV: You discover the destination nobody's talking about",
+      "Stop overpaying for hotels - here's the insider secret",
+      "This is how I travel full-time on a normal salary",
+      "The travel hack that changed how I see the world",
+      "When you visit during off-season and have it to yourself",
+      "POV: Your travel budget before vs after using [tool]",
+      "If you're not booking this way, you're wasting money",
+      "This changed my approach to travel planning forever",
+      "The one travel app that replaced my travel agent",
+      "When you realize luxury travel is actually affordable",
+      "Stop dreaming about travel - here's how to make it happen"
+    ],
+    "emotions": ["wanderlust", "FOMO", "adventure", "freedom", "discovery", "cultural-enrichment"],
+    "viral_formats": [
+      "hidden destination reveal",
+      "travel cost breakdown",
+      "packing hack demonstration",
+      "local experience showcase",
+      "budget vs luxury comparison",
+      "itinerary walkthrough",
+      "cultural immersion story",
+      "travel mistake prevention"
+    ],
+    "pain_points": [
+      "Travel too expensive",
+      "Don't know where to start planning",
+      "Fear of language barriers",
+      "Safety concerns",
+      "Overwhelming hotel/flight options",
+      "Hidden fees and charges",
+      "Bad reviews after booking",
+      "Difficulty finding authentic experiences",
+      "Vacation time limitations",
+      "Solo travel anxiety"
+    ],
+    "value_propositions": [
+      "Price match guarantee",
+      "Curated local experiences",
+      "Flexible cancellation",
+      "24/7 travel support",
+      "Insider destination guides",
+      "Transparent pricing",
+      "Verified reviews only",
+      "Personalized itineraries"
+    ]
+  },
+
+  "HR & Recruitment": {
+    "hooks": [
+      "When you realize hiring doesn't have to take 3 months",
+      "POV: Your recruitment process before vs after [tool]",
+      "Stop losing top talent to competitors - here's why",
+      "This is how companies find A-players in days, not weeks",
+      "The hiring tool that actually filters out bad candidates",
+      "When you automate screening and this happens",
+      "POV: Your hiring success rate with data-driven recruiting",
+      "If you're still manually reviewing resumes, watch this",
+      "This changed our company culture and retention forever",
+      "The one HR tool that reduced turnover by 40%",
+      "When you treat candidates like humans and they actually accept",
+      "Stop hiring based on gut feeling - here's what works"
+    ],
+    "emotions": ["efficiency", "relief", "confidence", "competitive-advantage", "team-pride", "growth-mindset"],
+    "viral_formats": [
+      "hiring timeline comparison",
+      "candidate experience story",
+      "retention stats reveal",
+      "recruitment automation demo",
+      "culture fit assessment",
+      "diversity hiring impact",
+      "onboarding transformation",
+      "employer brand showcase"
+    ],
+    "pain_points": [
+      "Long time-to-hire",
+      "High candidate drop-off",
+      "Poor quality applicants",
+      "Biased hiring decisions",
+      "High employee turnover",
+      "Expensive recruitment agencies",
+      "Manual resume screening",
+      "Difficulty assessing culture fit",
+      "Onboarding inefficiencies",
+      "Lack of diversity in pipeline"
+    ],
+    "value_propositions": [
+      "AI-powered candidate matching",
+      "Automated screening workflows",
+      "Bias-free assessments",
+      "Faster time-to-hire",
+      "Integrated onboarding",
+      "Candidate experience tracking",
+      "Diversity analytics",
+      "Predictive retention insights"
+    ]
+  },
+
+  "Project Management": {
+    "hooks": [
+      "When you realize your team has been using the wrong PM tool",
+      "POV: Your project deadlines before vs after [tool]",
+      "Stop drowning in status update meetings - automate this",
+      "This is how high-performing teams actually manage projects",
+      "The PM tool that eliminated our daily standups",
+      "When visibility finally exists across all projects",
+      "POV: Your team collaboration after switching tools",
+      "If you're still using spreadsheets for PM, you're behind",
+      "This changed how our remote team works together",
+      "The one feature that saved us from project chaos",
+      "When you stop micromanaging and projects still succeed",
+      "Stop context-switching between 10 tools - here's the solution"
+    ],
+    "emotions": ["control", "relief", "team-unity", "achievement", "clarity", "efficiency-pride"],
+    "viral_formats": [
+      "project timeline success story",
+      "team workflow transformation",
+      "deadline met celebration",
+      "chaos to organized reveal",
+      "remote collaboration showcase",
+      "feature demonstration",
+      "productivity metrics reveal",
+      "tool comparison breakdown"
+    ],
+    "pain_points": [
+      "Missed deadlines",
+      "Lack of project visibility",
+      "Team miscommunication",
+      "Resource allocation chaos",
+      "Too many status meetings",
+      "Difficulty tracking dependencies",
+      "No single source of truth",
+      "Bottlenecks not identified early",
+      "Client communication gaps",
+      "Scope creep issues"
+    ],
+    "value_propositions": [
+      "Real-time project visibility",
+      "Automated progress tracking",
+      "Team collaboration built-in",
+      "Customizable workflows",
+      "Resource management tools",
+      "Client portal included",
+      "Integration with existing tools",
+      "Predictive timeline alerts"
+    ]
+  },
+
+  "Customer Support & CRM": {
+    "hooks": [
+      "When you realize your customer support is losing you sales",
+      "POV: Your response time before vs after [CRM]",
+      "Stop losing customers to poor support - here's the fix",
+      "This is how companies maintain 98% customer satisfaction",
+      "The CRM that actually helps close deals, not just track them",
+      "When automation handles 80% of support tickets",
+      "POV: Your customer retention after implementing [tool]",
+      "If you're manually tracking customer interactions, watch this",
+      "This changed our customer lifetime value overnight",
+      "The one feature that turned support into a profit center",
+      "When you treat customers like humans and revenue increases",
+      "Stop letting support tickets fall through the cracks"
+    ],
+    "emotions": ["customer-love", "relief", "efficiency", "growth", "service-pride", "relationship-building"],
+    "viral_formats": [
+      "customer success story",
+      "response time improvement",
+      "satisfaction score reveal",
+      "automation workflow demo",
+      "retention rate increase",
+      "support team transformation",
+      "personalization at scale",
+      "revenue impact showcase"
+    ],
+    "pain_points": [
+      "Slow response times",
+      "Tickets getting lost",
+      "Inconsistent customer experience",
+      "No customer history visibility",
+      "Support team burnout",
+      "Difficult to scale support",
+      "Can't track customer sentiment",
+      "Multiple tools, no integration",
+      "Poor handoff between teams",
+      "No proactive support capability"
+    ],
+    "value_propositions": [
+      "Omnichannel support unified",
+      "AI-powered ticket routing",
+      "Complete customer history",
+      "Automated responses",
+      "Sentiment analysis built-in",
+      "Team collaboration tools",
+      "Self-service portal",
+      "Proactive support alerts"
+    ]
+  },
+
+  "Content Creation & Media": {
+    "hooks": [
+      "When you create pro-level content without expensive equipment",
+      "POV: Your content quality before vs after [tool]",
+      "Stop letting editing slow down your content output",
+      "This is how creators with millions of views edit their content",
+      "The content tool that replaced my entire creative suite",
+      "When you batch-create a month of content in one day",
+      "POV: Your engagement after improving content quality",
+      "If you're still editing manually, you're wasting hours daily",
+      "This changed how I approach content creation forever",
+      "The one tool that made me look like a professional editor",
+      "When AI helps you create without losing your creative voice",
+      "Stop posting inconsistently - here's the content system"
+    ],
+    "emotions": ["creative-flow", "pride", "efficiency", "professional-credibility", "artistic-expression", "audience-connection"],
+    "viral_formats": [
+      "editing process reveal",
+      "content quality comparison",
+      "creator workflow showcase",
+      "batch creation demo",
+      "before/after edit",
+      "engagement growth story",
+      "creative process breakdown",
+      "tool efficiency demonstration"
+    ],
+    "pain_points": [
+      "Editing takes too long",
+      "Expensive creative software",
+      "Steep learning curves",
+      "Inconsistent posting schedule",
+      "Running out of ideas",
+      "Low production quality",
+      "File management chaos",
+      "Collaboration difficulties",
+      "Version control issues",
+      "Platform-specific formatting"
+    ],
+    "value_propositions": [
+      "AI-powered editing assistance",
+      "Template library included",
+      "One-click platform optimization",
+      "Cloud collaboration",
+      "Auto-captioning/subtitles",
+      "Stock media library",
+      "Brand kit management",
+      "Multi-format export"
+    ]
+  },
+
+  "Community & Networking": {
+    "hooks": [
+      "When you realize your network is your net worth",
+      "POV: Your opportunities before vs after building community",
+      "Stop networking alone - here's how communities change careers",
+      "This is how successful people actually build connections",
+      "The community that led to my biggest career breakthrough",
+      "When you find your people and everything changes",
+      "POV: The collaboration that only happened because of community",
+      "If you're building alone, you're doing it the hard way",
+      "This changed my approach to professional relationships",
+      "The one community that replaced LinkedIn for me",
+      "When genuine connection beats transactional networking",
+      "Stop collecting contacts - start building relationships"
+    ],
+    "emotions": ["belonging", "opportunity", "mutual-support", "collaboration", "empowerment", "authentic-connection"],
+    "viral_formats": [
+      "community success story",
+      "collaboration showcase",
+      "networking transformation",
+      "opportunity discovery",
+      "member spotlight series",
+      "community impact reveal",
+      "connection to opportunity path",
+      "culture showcase"
+    ],
+    "pain_points": [
+      "Feeling isolated professionally",
+      "Networking feels transactional",
+      "No access to relevant connections",
+      "Difficulty finding collaborators",
+      "Missing industry insights",
+      "No peer support system",
+      "LinkedIn fatigue",
+      "Superficial professional relationships",
+      "Imposter syndrome in networking",
+      "Time zone barriers for global connection"
+    ],
+    "value_propositions": [
+      "Curated community (quality over quantity)",
+      "Meaningful connection facilitation",
+      "Expert-led discussions",
+      "Collaboration matchmaking",
+      "Private, safe space",
+      "Industry-specific focus",
+      "Events + workshops included",
+      "Mentorship opportunities"
+    ]
+  },
+
+  "Booking & Scheduling": {
+    "hooks": [
+      "When you realize scheduling doesn't have to be a nightmare",
+      "POV: Your calendar before vs after automation",
+      "Stop playing email tag to book meetings - here's the fix",
+      "This is how busy professionals manage their time",
+      "The scheduling tool that gave me back 5 hours/week",
+      "When clients can book instantly and show-up rate increases",
+      "POV: Your no-show rate after implementing reminders",
+      "If you're manually coordinating schedules, watch this",
+      "This changed how I manage my time and boundaries",
+      "The one feature that eliminated double-bookings forever",
+      "When your availability syncs and life gets easier",
+      "Stop losing revenue to scheduling friction"
+    ],
+    "emotions": ["relief", "control", "professionalism", "efficiency", "boundary-respect", "time-freedom"],
+    "viral_formats": [
+      "time saved calculation",
+      "booking flow demonstration",
+      "no-show reduction story",
+      "calendar chaos to zen",
+      "client experience improvement",
+      "automation workflow reveal",
+      "productivity transformation",
+      "professional image upgrade"
+    ],
+    "pain_points": [
+      "Email back-and-forth to schedule",
+      "Double-bookings",
+      "High no-show rates",
+      "Time zone confusion",
+      "Last-minute cancellations",
+      "Manual reminder sending",
+      "No buffer time between meetings",
+      "Difficult rescheduling process",
+      "Multiple calendar conflicts",
+      "Lack of booking flexibility"
+    ],
+    "value_propositions": [
+      "One-click booking",
+      "Automated reminders",
+      "Time zone detection",
+      "Calendar integration",
+      "Customizable availability",
+      "Buffer time management",
+      "Payment collection",
+      "Cancellation policies enforced"
+    ]
+  },
+
+  "Agriculture & Sustainability": {
+    "hooks": [
+      "When you realize sustainable farming is actually more profitable",
+      "POV: Your harvest before vs after data-driven decisions",
+      "Stop guessing - here's how tech transforms agriculture",
+      "This is how modern farmers maximize yield sustainably",
+      "The ag-tech tool that increased profits by 30%",
+      "When you see the environmental impact of your choices",
+      "POV: Traditional farming vs precision agriculture",
+      "If you're farming without data, you're leaving money on the table",
+      "This changed how I think about food production",
+      "The one innovation that saved our family farm",
+      "When sustainability meets profitability and both win",
+      "Stop depleting soil - here's regenerative agriculture"
+    ],
+    "emotions": ["stewardship", "innovation-pride", "environmental-responsibility", "profitability", "legacy", "hope-for-future"],
+    "viral_formats": [
+      "yield improvement story",
+      "sustainability transformation",
+      "tech adoption journey",
+      "environmental impact reveal",
+      "cost savings demonstration",
+      "generational farm story",
+      "season-over-season comparison",
+      "innovation showcase"
+    ],
+    "pain_points": [
+      "Unpredictable weather impacts",
+      "Rising input costs",
+      "Labor shortages",
+      "Soil degradation",
+      "Water scarcity",
+      "Pest/disease management",
+      "Market price volatility",
+      "Lack of data for decisions",
+      "Equipment maintenance costs",
+      "Generational knowledge gap"
+    ],
+    "value_propositions": [
+      "Precision farming insights",
+      "Weather prediction integration",
+      "Input cost optimization",
+      "Yield forecasting",
+      "Soil health monitoring",
+      "Water usage efficiency",
+      "Pest detection early warning",
+      "Sustainable practice guidance"
+    ]
+  },
+
+  "Fashion & Beauty": {
+    "hooks": [
+      "When you find the dupe that's actually better than the original",
+      "POV: Your skin/style before vs after discovering this",
+      "Stop overpaying for designer when this exists",
+      "This is what makeup artists actually use",
+      "The beauty product that replaced my entire routine",
+      "When the before and after actually shocks you",
+      "POV: You find your signature style finally",
+      "If you haven't tried this yet, what are you doing?",
+      "This changed my confidence and everyone noticed",
+      "The one product that's worth the hype",
+      "When sustainable fashion is actually affordable",
+      "Stop following trends - here's how to find your style"
+    ],
+    "emotions": ["confidence", "self-expression", "transformation", "discovery", "luxury-accessible", "sustainability-conscious"],
+    "viral_formats": [
+      "transformation reveal",
+      "get ready with me",
+      "dupe comparison",
+      "routine breakdown",
+      "product review montage",
+      "style evolution",
+      "confidence boost story",
+      "sustainable choice showcase"
+    ],
+    "pain_points": [
+      "Products too expensive",
+      "Don't know what suits them",
+      "Skin sensitivity issues",
+      "Fast fashion guilt",
+      "Overwhelming product choices",
+      "Trends changing too fast",
+      "Size/fit inconsistencies",
+      "Lack of inclusive options",
+      "Unsustainable practices",
+      "Beauty routine too complex"
+    ],
+    "value_propositions": [
+      "Affordable luxury quality",
+      "Personalized recommendations",
+      "Inclusive sizing/shades",
+      "Sustainable materials",
+      "Cruelty-free certified",
+      "Virtual try-on",
+      "Subscription flexibility",
+      "Simple effective routines"
+    ]
+  },
+
+  "Gaming & Entertainment": {
+    "hooks": [
+      "When you discover the game everyone's sleeping on",
+      "POV: Your gaming setup before vs after this upgrade",
+      "Stop paying full price - here's how gamers save money",
+      "This is what pro gamers actually use",
+      "The gaming platform that changed everything",
+      "When you finally hit that achievement and it feels amazing",
+      "POV: Your KD ratio after using [tool/service]",
+      "If you're not on this platform yet, you're missing out",
+      "This changed how I experience gaming forever",
+      "The one feature that makes gaming way more social",
+      "When cloud gaming actually works perfectly",
+      "Stop grinding alone - here's the community you need"
+    ],
+    "emotions": ["excitement", "achievement", "community-belonging", "competitive-drive", "escapism", "social-connection"],
+    "viral_formats": [
+      "gameplay highlight reel",
+      "achievement unlock celebration",
+      "setup tour/upgrade",
+      "gaming session story",
+      "community moment capture",
+      "skill improvement journey",
+      "platform comparison",
+      "hidden feature reveal"
+    ],
+    "pain_points": [
+      "Games too expensive",
+      "Toxic gaming communities",
+      "Hardware limitations",
+      "Skill plateau",
+      "Gaming alone feels isolating",
+      "Too many gaming platforms",
+      "Lag/performance issues",
+      "Time commitment too high",
+      "Difficult finding teammates",
+      "Storage space limitations"
+    ],
+    "value_propositions": [
+      "Unlimited game library access",
+      "Cross-platform play",
+      "Positive community moderation",
+      "Cloud gaming (no hardware needed)",
+      "Skill-based matchmaking",
+      "Social features built-in",
+      "Exclusive content/perks",
+      "Play anywhere capability"
+    ]
+  }
+}
