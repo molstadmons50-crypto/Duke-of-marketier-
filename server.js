@@ -7,6 +7,7 @@ const rateLimit = require('express-rate-limit');
 const generateRoute = require('./routes/generate');
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3000;
 
 app.use(helmet());
@@ -69,14 +70,16 @@ app.use((err, req, res, next) => {
   });
 });
 
-const server = app.listen(PORT, () => {
-  console.log('Server running on port ' + PORT);
+process.on('SIGTERM', () => {
+  console.log('SIGTERM received, shutting down gracefully');
+  if (server) {
+    server.close(() => {
+      console.log('Server closed');
+      process.exit(0);
+    });
+  } else {
+    process.exit(0);
+  }
 });
 
-process.on('SIGTERM', () => {
-  console.log('SIGTERM received, closing server');
-  server.close(() => {
-    console.log('Server closed');
-  });
-});
 
