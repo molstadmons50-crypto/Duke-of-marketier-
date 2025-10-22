@@ -15,12 +15,14 @@ app.use(helmet());
 
 // CORS configuration - Allow requests from frontend
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-frontend-domain.com'] // Replace with your Lovable domain
-    : ['http://localhost:5173', 'http://localhost:3000'],
-  methods: ['GET', 'POST'],
-  credentials: true
+  origin: '*', // Allow all origins
+  methods: ['GET', 'POST', 'OPTIONS'],
+  credentials: false, // Must be false when origin is '*'
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
+```
+// Handle preflight requests
+app.options('*', cors());
 
 // Body parser middleware
 app.use(express.json());
@@ -39,7 +41,7 @@ app.use('/api/', limiter);
 
 // Request logging middleware
 app.use((req, res, next) => {
-  console.log(`[${new Date().toISOString()}] ${req.method} ${req.path}`);
+console.log('[' + new Date().toISOString() + '] ' + req.method + ' ' + req.path);
   next();
 });
 
@@ -54,6 +56,7 @@ app.get('/health', (req, res) => {
 
 // API routes
 app.use('/api/generate', generateRoute);
+
 
 // 404 handler
 app.use((req, res) => {
@@ -81,13 +84,13 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log('='.repeat(50));
-  console.log(`🚀 Viral Marketing API Server`);
-  console.log(`📍 Environment: ${process.env.NODE_ENV || 'development'}`);
-  console.log(`🌐 Port: ${PORT}`);
-  console.log(`✅ Server running at http://localhost:${PORT}`);
-  console.log(`🏥 Health check: http://localhost:${PORT}/health`);
+  console.log('Viral Marketing API Server');
+  console.log('Environment: ' + (process.env.NODE_ENV || 'development'));
+  console.log('Port: ' + PORT);
+  console.log('Server running at http://localhost:' + PORT);
+  console.log('Health check: http://localhost:' + PORT + '/health');
   console.log('='.repeat(50));
 });
 
