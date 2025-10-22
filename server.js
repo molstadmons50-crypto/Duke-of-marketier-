@@ -69,6 +69,22 @@ app.use((err, req, res, next) => {
     error: errorMessage
   });
 });
+const server = app.listen(PORT, () => {
+  console.log('Server running on port ' + PORT);
+  console.log('Health check: http://localhost:' + PORT + '/health');
+});
+
+process.on('SIGTERM', () => {
+  console.log('SIGTERM received, shutting down gracefully');
+  if (server) {
+    server.close(() => {
+      console.log('Server closed');
+      process.exit(0);
+    });
+  } else {
+    process.exit(0);
+  }
+});
 
 process.on('SIGTERM', () => {
   console.log('SIGTERM received, shutting down gracefully');
