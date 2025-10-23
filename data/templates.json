@@ -299,11 +299,7 @@
           "viral_score": 9
         }
       ]
-    }
-  ]
-},
-{
- "industries": [
+    },
     {
       "industry": "Office & Workplace",
       "templates": [
@@ -385,10 +381,7 @@
           "viral_score": 10
         }
       ]
-    }
-  ]
-}
-
+    },
     {
       "industry": "Fitness & Wellness",
       "templates": [
@@ -896,157 +889,9 @@
           "id": "standing-ovation",
           "name": "Standing Ovation Clapping",
           "giphyId": "2xO491sY6f0cM",
-          "searchTerm": "standing ovation clapping",
-          "emotion": "acclaim appreciation",
-          "use_case": "Award wins or critically acclaimed content",
-          "viral_score": 8
-        },
-        {
-          "id": "dramatic-gasp",
-          "name": "Dramatic Shocked Gasp",
-          "giphyId": "l0MYGb1LuZ3n7dRnO",
-          "searchTerm": "shocked gasp dramatic",
-          "emotion": "shock surprise",
-          "use_case": "Plot twists or big reveals",
-          "viral_score": 9
-        },
-        {
-          "id": "crying-emotional",
-          "name": "Crying Emotional Scene",
-          "giphyId": "OPU6wzx8JrHna",
-          "searchTerm": "crying emotional sad",
-          "emotion": "emotional impact",
-          "use_case": "Emotional content or touching stories",
-          "viral_score": 8
-        },
-        {
-          "id": "microphone-drop",
-          "name": "Microphone Drop",
-          "giphyId": "3o7qE1YN7aBOFPRw8E",
-          "searchTerm": "mic drop",
-          "emotion": "finality confidence",
-          "use_case": "Strong statements or final episodes",
-          "viral_score": 9
-        }
+          "searchTerm": "standing ovation"
+                  }
       ]
-    },
-    {
-      "industry": "Home Services & Renovation",
-      "templates": [
-        {
-          "id": "hammer-smash",
-          "name": "Hammer Demolition Smash",
-          "giphyId": "3o7TKSjRrfIPjeiVyM",
-          "searchTerm": "hammer smash demolition",
-          "emotion": "power destruction",
-          "use_case": "Renovation projects or demolition services",
-          "viral_score": 7
-        },
-        {
-          "id": "before-after-reveal",
-          "name": "Before After Dramatic Reveal",
-          "giphyId": "xT0xeuOy2Fcl9vDGiA",
-          "searchTerm": "reveal transformation",
-          "emotion": "amazement",
-          "use_case": "Renovation reveals or transformation content",
-          "viral_score": 8
-        },
-        {
-          "id": "drilling-wall",
-          "name": "Power Drill Action",
-          "giphyId": "12ndTXvIjDF4BG",
-          "searchTerm": "power drill drilling",
-          "emotion": "construction power",
-          "use_case": "Installation or construction services",
-          "viral_score": 6
-        },
-        {
-          "id": "cleaning-sparkling",
-          "name": "Sparkling Clean Shine",
-          "giphyId": "l0HlIO3bgoNJLInNm",
-          "searchTerm": "sparkling clean shine",
-          "emotion": "pristine cleanliness",
-          "use_case": "Cleaning services or results",
-          "viral_score": 7
-        },
-        {
-          "id": "satisfied-nod",
-          "name": "Satisfied Work Complete Nod",
-          "giphyId": "3oEdva9BUHPIs2SkGk",
-          "searchTerm": "satisfied nod approval",
-          "emotion": "job well done",
-          "use_case": "Completed projects or quality work",
-          "viral_score": 7
-        }
-      ]
-    },
-    {
-      "industry": "Event Planning & Weddings",
-      "templates": [
-        {
-          "id": "champagne-pop-celebration",
-          "name": "Champagne Bottle Pop",
-          "giphyId": "g9582DNuQppxC",
-          "searchTerm": "champagne pop celebration",
-          "emotion": "celebration luxury",
-          "use_case": "Wedding receptions or special celebrations",
-          "viral_score": 9
-        },
-        {
-          "id": "confetti-explosion",
-          "name": "Confetti Cannon Explosion",
-          "giphyId": "g9582DNuQppxC",
-          "searchTerm": "confetti explosion",
-          "emotion": "explosive joy",
-          "use_case": "Big announcements or celebrations",
-          "viral_score": 9
-        },
-        {
-          "id": "wedding-kiss",
-          "name": "Wedding Kiss Romantic",
-          "giphyId": "3oEjHYV7yUSoWvtXPy",
-          "searchTerm": "wedding kiss romantic",
-          "emotion": "romance love",
-          "use_case": "Wedding services or romantic moments",
-          "viral_score": 8
-        },
-        {
-          "id": "dancing-party",
-          "name": "Party Dancing Celebration",
-          "giphyId": "l0MYt5jPR6QX5pnqM",
-          "searchTerm": "dancing party celebration",
-          "emotion": "festive energy",
-          "use_case": "Reception entertainment or DJ services",
-          "viral_score": 8
-        },
-        {
-          "id": "fireworks-finale",
-          "name": "Fireworks Grand Finale",
-          "giphyId": "26BRBKqUiq586bRVm",
-          "searchTerm": "fireworks finale",
-          "emotion": "spectacular ending",
-          "use_case": "Grand finales or special effects",
-          "viral_score": 8
-        }
-      ]
-    },
-    {
-      "industry": "Marketing & Advertising",
-      "templates": [
-        {
-          "id": "idea-lightbulb",
-          "name": "Brilliant Idea Lightbulb",
-          "giphyId": "26ufdipQqU2lhNA4g",
-          "searchTerm": "idea lightbulb brilliant",
-          "emotion": "inspiration creativity",
-          "use_case": "Creative campaigns or strategy reveals",
-          "viral_score": 8
-        },
-        {
-          "id": "viral-explosion",
-          "name": "Going Viral Explosion",
-          "giphyId": "xT0xeJpnrWC4XWblEk",
-          "searchTerm": "mind blown viral",
-          "emotion": "viral impact",
-          "use_case": "Viral campaign success or reach milestones",
-          "viral_score": 9
+    }
+  ]
+}
