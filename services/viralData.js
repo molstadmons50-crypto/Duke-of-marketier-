@@ -23,10 +23,20 @@ function loadViralPatterns() {
  */
 function loadTemplates() {
   if (!templatesData) {
-    const filePath = path.join(__dirname, '../data/templates.json');
-    const rawData = fs.readFileSync(filePath, 'utf8');
-    templatesData = JSON.parse(rawData);
-    console.log('📚 Templates loaded');
+    try {
+      const filePath = path.join(__dirname, '../data/templates.json');
+      console.log('📂 Loading templates from:', filePath);
+      
+      const rawData = fs.readFileSync(filePath, 'utf8');
+      console.log('📄 File read, size:', rawData.length, 'bytes');
+      
+      templatesData = JSON.parse(rawData);
+      console.log('📚 Templates loaded - Industries:', templatesData.industries?.length || 0);
+      
+    } catch (error) {
+      console.error('❌ ERROR loading templates.json:', error.message);
+      throw error;
+    }
   }
   return templatesData;
 }
