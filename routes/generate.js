@@ -15,6 +15,7 @@ const { successResponse, errorResponse } = require('../utils/responseFormatter')
  * }
  */
 router.post('/', async (req, res) => {
+  console.log('🚨 GENERATE ENDPOINT HIT');
   const startTime = Date.now();
   console.log('\n' + '='.repeat(60));
   console.log('📥 NEW GENERATION REQUEST');

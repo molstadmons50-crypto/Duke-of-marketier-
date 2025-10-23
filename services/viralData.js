@@ -25,16 +25,23 @@ function loadTemplates() {
   if (!templatesData) {
     try {
       const filePath = path.join(__dirname, '../data/templates.json');
-      console.log('📂 Loading templates from:', filePath);
+      console.log('📂 ATTEMPTING TO LOAD:', filePath);
+      
+      if (!fs.existsSync(filePath)) {
+        console.error('❌ FILE DOES NOT EXIST:', filePath);
+        throw new Error('templates.json not found');
+      }
       
       const rawData = fs.readFileSync(filePath, 'utf8');
-      console.log('📄 File read, size:', rawData.length, 'bytes');
+      console.log('📄 FILE READ SUCCESS - Size:', rawData.length, 'bytes');
       
       templatesData = JSON.parse(rawData);
-      console.log('📚 Templates loaded - Industries:', templatesData.industries?.length || 0);
+      console.log('✅ JSON PARSED - Industries:', templatesData.industries?.length || 0);
+      console.log('📚 Templates loaded');
       
     } catch (error) {
-      console.error('❌ ERROR loading templates.json:', error.message);
+      console.error('❌ LOAD TEMPLATES ERROR:', error.message);
+      console.error('❌ FULL ERROR:', error);
       throw error;
     }
   }
@@ -47,20 +54,41 @@ function loadTemplates() {
  * @returns {Array} Viral patterns
  */
 function getViralPatterns(industry) {
-  const data = loadViralPatterns();
+  console.log('🔍 getViralPatterns CALLED with:', industry);
   
-  // Find industry (case-insensitive)
-  const industryData = data.industries.find(
-    ind => ind.industry.toLowerCase() === industry.toLowerCase()
-  );
+  try {
+    console.log('🔍 Calling loadViralPatterns()...');
+    const data = loadViralPatterns();
+    console.log('🔍 loadViralPatterns returned:', typeof data);
+    
+    if (!data) {
+      throw new Error('loadViralPatterns returned null/undefined');
+    }
+    
+    if (!data.industries) {
+      throw new Error('data.industries is undefined in viralPatterns.json');
+    }
+    
+    console.log('🔍 Available industries:', data.industries.length);
+    console.log('🔍 Looking for industry:', industry);
+    
+    // Find industry (case-insensitive)
+    const industryData = data.industries.find(
+      ind => ind.industry.toLowerCase() === industry.toLowerCase()
+    );
 
-  if (!industryData) {
-    console.log(`⚠️  Industry "${industry}" not found, using generic patterns`);
-    // Return first industry as fallback (or implement generic patterns)
-    return data.industries[0].patterns.slice(0, 5);
+    if (!industryData) {
+      console.log(`⚠️  Industry "${industry}" not found, using generic patterns`);
+      return data.industries[0].patterns.slice(0, 5);
+    }
+
+    console.log('✅ Found industry, returning patterns');
+    return industryData.patterns;
+    
+  } catch (error) {
+    console.error('❌ getViralPatterns ERROR:', error.message);
+    throw error;
   }
-
-  return industryData.patterns;
 }
 
 /**
@@ -69,19 +97,37 @@ function getViralPatterns(industry) {
  * @returns {Array} GIF templates
  */
 function getTemplates(industry) {
-  const data = loadTemplates();
+  console.log('🔍 getTemplates CALLED with:', industry);
   
-  // Find industry (case-insensitive)
-  const industryData = data.industries.find(
-    ind => ind.industry.toLowerCase() === industry.toLowerCase()
-  );
+  try {
+    console.log('🔍 Calling loadTemplates()...');
+    const data = loadTemplates();
+    console.log('🔍 loadTemplates returned:', typeof data, data ? 'NOT NULL' : 'NULL');
+    
+    if (!data) {
+      throw new Error('loadTemplates returned null/undefined');
+    }
+    
+    if (!data.industries) {
+      throw new Error('data.industries is undefined');
+    }
+    
+    console.log('🔍 Looking for industry:', industry);
+    const industryData = data.industries.find(
+      ind => ind.industry.toLowerCase() === industry.toLowerCase()
+    );
 
-  if (!industryData) {
-    console.log(`⚠️  No templates found for industry: ${industry}`);
-    return [];
+    if (!industryData) {
+      console.log(`⚠️  No templates found for industry: ${industry}`);
+      return [];
+    }
+
+    return industryData.templates;
+    
+  } catch (error) {
+    console.error('❌ getTemplates ERROR:', error.message);
+    throw error;
   }
-
-  return industryData.templates;
 }
 
 /**
