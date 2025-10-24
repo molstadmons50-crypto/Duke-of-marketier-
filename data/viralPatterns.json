@@ -53,7 +53,19 @@
         },
         {
           "type": "emotion",
-          "text": "security"
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "FOMO"
+        },
+        {
+          "type": "emotion",
+          "text": "productivity-flex"
+        },
+        {
+          "type": "emotion",
+          "text": "frustration-to-joy"
         },
         {
           "type": "emotion",
@@ -2523,27 +2535,6 @@
         {
           "type": "value_proposition",
           "text": "Play anywhere capability"
-        }
-      ]
-    }
-  ]
-}": "relief"
-        },
-        {
-          "type": "emotion",
-          "text": "FOMO"
-        },
-        {
-          "type": "emotion",
-          "text": "productivity-flex"
-        },
-        {
-          "type": "emotion",
-          "text": "frustration-to-joy"
-        },
-        {
-          "type": "emotion",
-          "text": "empowerment"
         },
         {
           "type": "emotion",
@@ -3621,4 +3612,13 @@
         },
         {
           "type": "emotion",
-          "text
+          "text": "security"
+        },
+        {
+          "type": "emotion",
+          "text": "empowerment"
+        }
+      ]
+    }
+  ]
+}
