@@ -51,288 +51,6 @@
       ]
     },
     {
-      "industry": "Photography & Videography",
-      "templates": [
-        {
-          "id": "camera-shutter-click",
-          "name": "Camera Shutter Clicking",
-          "giphyId": "3o6Zt6ML6BklcajjsA",
-          "searchTerm": "camera shutter click",
-          "emotion": "capturing moment",
-          "use_case": "Photography services or portfolio showcases",
-          "viral_score": 7
-        },
-        {
-          "id": "flash-photography",
-          "name": "Camera Flash Burst",
-          "giphyId": "26BRBKqUiq586bRVm",
-          "searchTerm": "camera flash burst",
-          "emotion": "spotlight moment",
-          "use_case": "Event photography or portrait sessions",
-          "viral_score": 7
-        },
-        {
-          "id": "perfect-shot-yes",
-          "name": "Perfect Shot Yes Reaction",
-          "giphyId": "3ohs7KViF6rA4aan5u",
-          "searchTerm": "yes perfect reaction",
-          "emotion": "satisfaction success",
-          "use_case": "Portfolio highlights or successful shoots",
-          "viral_score": 8
-        },
-        {
-          "id": "drone-flying",
-          "name": "Drone Camera Flying",
-          "giphyId": "3o6Zt6ML6BklcajjsA",
-          "searchTerm": "drone flying camera",
-          "emotion": "aerial perspective",
-          "use_case": "Aerial photography or videography",
-          "viral_score": 7
-        },
-        {
-          "id": "photo-reveal",
-          "name": "Photo Reveal Polaroid",
-          "giphyId": "5GoVLqeAOo6PK",
-          "searchTerm": "polaroid photo reveal",
-          "emotion": "anticipation reveal",
-          "use_case": "Print services or instant photography",
-          "viral_score": 7
-        }
-      ]
-    },
-    {
-      "industry": "Agriculture & Farming",
-      "templates": [
-        {
-          "id": "planting-seeds",
-          "name": "Planting Seeds in Soil",
-          "giphyId": "3o6Zt6ML6BklcajjsA",
-          "searchTerm": "planting seeds soil",
-          "emotion": "growth beginning",
-          "use_case": "Planting season or seed products",
-          "viral_score": 6
-        },
-        {
-          "id": "harvest-celebration",
-          "name": "Harvest Celebration",
-          "giphyId": "3ohs7KViF6rA4aan5u",
-          "searchTerm": "harvest celebration success",
-          "emotion": "abundance success",
-          "use_case": "Harvest season or yield success",
-          "viral_score": 7
-        },
-        {
-          "id": "tractor-driving",
-          "name": "Tractor Driving Through Field",
-          "giphyId": "xT9DPUYfZqL3uDSYIE",
-          "searchTerm": "tractor driving field",
-          "emotion": "work progress",
-          "use_case": "Equipment services or farm operations",
-          "viral_score": 6
-        },
-        {
-          "id": "sunrise-farm",
-          "name": "Beautiful Farm Sunrise",
-          "giphyId": "3o7TKSjRrfIPjeiVyM",
-          "searchTerm": "sunrise farm beautiful",
-          "emotion": "peaceful beginning",
-          "use_case": "Farm life or natural beauty content",
-          "viral_score": 7
-        },
-        {
-          "id": "fresh-vegetables",
-          "name": "Fresh Vegetables Harvest",
-          "giphyId": "Zk9mW5OmXTz9e",
-          "searchTerm": "fresh vegetables harvest",
-          "emotion": "freshness quality",
-          "use_case": "Organic produce or farm-to-table",
-          "viral_score": 7
-        }
-      ]
-    },
-    {
-      "industry": "Legal Services",
-      "templates": [
-        {
-          "id": "gavel-slam",
-          "name": "Judge Gavel Slam",
-          "giphyId": "l0HlRWOXkKCVAeC76",
-          "searchTerm": "gavel slam judge",
-          "emotion": "authority finality",
-          "use_case": "Case wins or legal decisions",
-          "viral_score": 8
-        },
-        {
-          "id": "signing-contract-official",
-          "name": "Signing Official Contract",
-          "giphyId": "3o7TKRwpns23QMEpKU",
-          "searchTerm": "signing contract official",
-          "emotion": "formality commitment",
-          "use_case": "Client onboarding or agreement signing",
-          "viral_score": 7
-        },
-        {
-          "id": "handshake-agreement",
-          "name": "Firm Handshake Agreement",
-          "giphyId": "g5R9dok94mrIvplmZd",
-          "searchTerm": "handshake business deal",
-          "emotion": "agreement trust",
-          "use_case": "Settlements or client relationships",
-          "viral_score": 7
-        },
-        {
-          "id": "stressed-paperwork",
-          "name": "Overwhelmed by Paperwork",
-          "giphyId": "l4FGuhL4U2WyjdkaY",
-          "searchTerm": "stressed paperwork overwhelmed",
-          "emotion": "overwhelm",
-          "use_case": "Showing pain points before offering help",
-          "viral_score": 7
-        },
-        {
-          "id": "victory-fist-pump",
-          "name": "Courtroom Victory Fist Pump",
-          "giphyId": "3ohs7KViF6rA4aan5u",
-          "searchTerm": "victory fist pump win",
-          "emotion": "triumph",
-          "use_case": "Case wins or successful outcomes",
-          "viral_score": 8
-        }
-      ]
-    },
-    {
-      "industry": "Non-Profit & Charity",
-      "templates": [
-        {
-          "id": "heart-hands",
-          "name": "Making Heart with Hands",
-          "giphyId": "3oEjHYV7yUSoWvtXPy",
-          "searchTerm": "heart hands love",
-          "emotion": "love compassion",
-          "use_case": "Donation appeals or gratitude messages",
-          "viral_score": 8
-        },
-        {
-          "id": "group-hug",
-          "name": "Warm Group Hug",
-          "giphyId": "l0MYGb1LuZ3n7dRnO",
-          "searchTerm": "group hug warm",
-          "emotion": "community support",
-          "use_case": "Community building or support networks",
-          "viral_score": 7
-        },
-        {
-          "id": "crying-tears-joy",
-          "name": "Crying Tears of Joy",
-          "giphyId": "OPU6wzx8JrHna",
-          "searchTerm": "crying happy tears joy",
-          "emotion": "emotional gratitude",
-          "use_case": "Success stories or impact testimonials",
-          "viral_score": 8
-        },
-        {
-          "id": "donation-box-filling",
-          "name": "Filling Donation Box",
-          "giphyId": "67ThRZlYBvibtdF9JH",
-          "searchTerm": "donation box money",
-          "emotion": "generosity",
-          "use_case": "Fundraising campaigns",
-          "viral_score": 7
-        },
-        {
-          "id": "celebration-confetti",
-          "name": "Celebration Confetti Pop",
-          "giphyId": "g9582DNuQppxC",
-          "searchTerm": "celebration confetti",
-          "emotion": "celebration milestone",
-          "use_case": "Fundraising goals reached or campaign success",
-          "viral_score": 8
-        }
-      ]
-    },
-    {
-      "industry": "Pet Care & Veterinary",
-      "templates": [
-        {
-          "id": "puppy-excited-jumping",
-          "name": "Excited Puppy Jumping",
-          "giphyId": "xT9IgvEOwRzUcZDRiU",
-          "searchTerm": "puppy excited jumping",
-          "emotion": "joy excitement",
-          "use_case": "Happy pet content or adoption promotions",
-          "viral_score": 9
-        },
-        {
-          "id": "cat-knocking-things",
-          "name": "Cat Knocking Things Over",
-          "giphyId": "VbnUQpnihPSIgIXuZv",
-          "searchTerm": "cat knocking over",
-          "emotion": "mischief humor",
-          "use_case": "Relatable pet behavior content",
-          "viral_score": 9
-        },
-        {
-          "id": "dog-treat-catching",
-          "name": "Dog Catching Treat",
-          "giphyId": "3ohs7W7ACPrornLhKM",
-          "searchTerm": "dog catching treat",
-          "emotion": "reward excitement",
-          "use_case": "Pet treat products or training",
-          "viral_score": 8
-        },
-        {
-          "id": "dog-tilting-head",
-          "name": "Dog Tilting Head Confused",
-          "giphyId": "3o7btPCcdNniyf0ArS",
-          "searchTerm": "dog head tilt confused",
-          "emotion": "curious confusion",
-          "use_case": "Educational pet content or FAQs",
-          "viral_score": 9
-        },
-        {
-          "id": "dog-running-zoomies",
-          "name": "Dog Running Zoomies",
-          "giphyId": "3o7qE1YN7aBOFPRw8E",
-          "searchTerm": "dog running zoomies fast",
-          "emotion": "energetic joy",
-          "use_case": "Pet energy or exercise products",
-          "viral_score": 9
-        }
-      ]
-    },
-    {
-      "industry": "Office & Workplace",
-      "templates": [
-        {
-          "id": "celebrate-office-dance",
-          "name": "Office Victory Dance",
-          "giphyId": "l0MYt5jPR6QX5pnqM",
-          "searchTerm": "office dance celebration",
-          "emotion": "triumph",
-          "use_case": "Celebrating completed projects or goals reached",
-          "viral_score": 8
-        },
-        {
-          "id": "stressed-computer-smash",
-          "name": "Stressed Computer Frustration",
-          "giphyId": "l4FGuhL4U2WyjdkaY",
-          "searchTerm": "frustrated computer",
-          "emotion": "frustration",
-          "use_case": "Highlighting pain points before showing solution",
-          "viral_score": 7
-        },
-        {
-          "id": "loading-waiting",
-          "name": "Impatiently Waiting Loading",
-          "giphyId": "tXL4FHPSnVJ0A",
-          "searchTerm": "waiting impatiently",
-          "emotion": "impatience",
-          "use_case": "Showing slow processes your tool eliminates",
-          "viral_score": 8
-        }
-      ]
-    },
-    {
       "industry": "E-commerce & Retail",
       "templates": [
         {
@@ -424,217 +142,108 @@
       ]
     },
     {
-      "industry": "Food & Beverage",
+      "industry": "Marketing & Advertising",
       "templates": [
         {
-          "id": "eating-fast-hungry",
-          "name": "Eating Food Frantically",
-          "giphyId": "Zk9mW5OmXTz9e",
-          "searchTerm": "eating fast hungry",
-          "emotion": "hunger satisfaction",
-          "use_case": "Food delivery or restaurant promotions",
+          "id": "viral-explosion",
+          "name": "Content Going Viral",
+          "giphyId": "xT0xeJpnrWC4XWblEk",
+          "searchTerm": "viral explosion trending",
+          "emotion": "viral success",
+          "use_case": "Viral marketing campaigns",
           "viral_score": 9
         },
         {
-          "id": "chef-kiss-perfection",
-          "name": "Chef's Kiss Perfect",
-          "giphyId": "3q3QK6KyDVUBzih7hB",
-          "searchTerm": "chefs kiss",
-          "emotion": "perfection",
-          "use_case": "Signature dishes or recipe reveals",
-          "viral_score": 9
-        },
-        {
-          "id": "drooling-hungry",
-          "name": "Drooling Over Food",
-          "giphyId": "EKUvB9A3QT7Us",
-          "searchTerm": "drooling hungry",
-          "emotion": "craving",
-          "use_case": "Food photography or menu highlights",
-          "viral_score": 8
-        },
-        {
-          "id": "coffee-sipping-bliss",
-          "name": "Coffee Sipping Bliss",
-          "giphyId": "26xBEamXwaMuQ21K8",
-          "searchTerm": "coffee sipping happy",
-          "emotion": "contentment",
-          "use_case": "Coffee shop promotions or morning deals",
-          "viral_score": 8
-        },
-        {
-          "id": "pizza-bite-stretch",
-          "name": "Cheese Stretching Pizza Bite",
-          "giphyId": "4ayiIWaq2VULC",
-          "searchTerm": "pizza cheese stretch",
-          "emotion": "satisfaction",
-          "use_case": "Pizza deals or cheese-focused dishes",
-          "viral_score": 9
-        }
-      ]
-    },
-    {
-      "industry": "Real Estate",
-      "templates": [
-        {
-          "id": "house-keys-handover",
-          "name": "Receiving House Keys",
-          "giphyId": "3ohhwtQGinneVw1FLy",
-          "searchTerm": "house keys handover",
-          "emotion": "achievement",
-          "use_case": "Closing deals or new homeowner celebrations",
-          "viral_score": 7
-        },
-        {
-          "id": "mansion-wow",
-          "name": "Impressed by Mansion",
-          "giphyId": "SDogLD4FOZMM8",
-          "searchTerm": "wow impressed mansion",
-          "emotion": "awe",
-          "use_case": "Luxury property showcases",
-          "viral_score": 8
-        },
-        {
-          "id": "door-opening-reveal",
-          "name": "Opening Door Reveal",
-          "giphyId": "xT0xeuOy2Fcl9vDGiA",
-          "searchTerm": "door opening reveal",
-          "emotion": "anticipation",
-          "use_case": "Property reveals or virtual tours",
-          "viral_score": 7
-        },
-        {
-          "id": "sold-sign-celebration",
-          "name": "Putting Up Sold Sign",
-          "giphyId": "26gsjCZpPolPr3sBy",
-          "searchTerm": "sold sign celebration",
-          "emotion": "success",
-          "use_case": "Successful sales announcements",
-          "viral_score": 8
-        },
-        {
-          "id": "dream-home-heart-eyes",
-          "name": "Heart Eyes Dream Home",
-          "giphyId": "EvYHHSntaIl5m",
-          "searchTerm": "heart eyes love",
-          "emotion": "adoration",
-          "use_case": "Dream home features or ideal properties",
-          "viral_score": 8
-        }
-      ]
-    },
-    {
-      "industry": "Travel & Hospitality",
-      "templates": [
-        {
-          "id": "plane-taking-off",
-          "name": "Airplane Taking Off",
-          "giphyId": "3oKIPsx2VAYAgEHC12",
-          "searchTerm": "plane takeoff",
-          "emotion": "adventure begins",
-          "use_case": "Flight deals or travel packages",
-          "viral_score": 8
-        },
-        {
-          "id": "beach-relaxing",
-          "name": "Relaxing on Beach",
-          "giphyId": "l0HlI6nIgJPTxK5q0",
-          "searchTerm": "beach relaxing paradise",
-          "emotion": "relaxation",
-          "use_case": "Beach resort promotions",
-          "viral_score": 8
-        },
-        {
-          "id": "sunset-wow",
-          "name": "Amazing Sunset View",
-          "giphyId": "3o7TKSjRrfIPjeiVyM",
-          "searchTerm": "sunset beautiful view",
-          "emotion": "awe wonder",
-          "use_case": "Scenic destination showcases",
-          "viral_score": 8
-        },
-        {
-          "id": "hotel-bed-flop",
-          "name": "Flopping on Hotel Bed",
-          "giphyId": "l0MYGb1LuZ3n7dRnO",
-          "searchTerm": "hotel bed flop",
-          "emotion": "relief comfort",
-          "use_case": "Hotel comfort features",
-          "viral_score": 7
-        },
-        {
-          "id": "cocktail-cheers",
-          "name": "Tropical Cocktail Cheers",
-          "giphyId": "g9582DNuQppxC",
-          "searchTerm": "cocktail cheers tropical",
-          "emotion": "celebration vacation",
-          "use_case": "Resort bar or vacation packages",
-          "viral_score": 8
-        }
-      ]
-    },
-    {
-      "industry": "Finance & Banking",
-      "templates": [
-        {
-          "id": "money-rain-falling",
-          "name": "Money Raining Down",
-          "giphyId": "3o85xHi4t2UsuIY9QA",
-          "searchTerm": "money rain falling",
-          "emotion": "wealth prosperity",
-          "use_case": "Investment returns or savings growth",
-          "viral_score": 9
-        },
-        {
-          "id": "piggy-bank-savings",
-          "name": "Piggy Bank Coin Drop",
-          "giphyId": "67ThRZlYBvibtdF9JH",
-          "searchTerm": "piggy bank savings",
-          "emotion": "saving building",
-          "use_case": "Savings account promotions",
-          "viral_score": 7
-        },
-        {
-          "id": "stocks-going-up",
-          "name": "Stock Market Rising Graph",
+          "id": "growth-chart-marketing",
+          "name": "Marketing Growth Chart",
           "giphyId": "3ohzdMDbNXvnWdeOZi",
-          "searchTerm": "stocks rising graph up",
-          "emotion": "growth success",
-          "use_case": "Investment performance or market updates",
+          "searchTerm": "growth chart up",
+          "emotion": "growth excitement",
+          "use_case": "Campaign performance metrics",
           "viral_score": 8
         },
         {
-          "id": "credit-card-approved",
-          "name": "Credit Card Approved Swipe",
-          "giphyId": "26BRJpb4yopIY0bHO",
-          "searchTerm": "credit card approved",
-          "emotion": "approval relief",
-          "use_case": "Card approval or payment success",
+          "id": "engagement-notifications",
+          "name": "Engagement Notifications Flooding",
+          "giphyId": "3oriO0OEd9QIDdllqo",
+          "searchTerm": "phone notifications many",
+          "emotion": "high engagement",
+          "use_case": "Social media engagement results",
+          "viral_score": 8
+        },
+        {
+          "id": "celebrate-success",
+          "name": "Campaign Success Celebration",
+          "giphyId": "l0MYt5jPR6QX5pnqM",
+          "searchTerm": "celebration success dance",
+          "emotion": "victory",
+          "use_case": "Successful campaign launches",
+          "viral_score": 8
+        },
+        {
+          "id": "money-results",
+          "name": "Marketing ROI Money",
+          "giphyId": "3oKIPa2TdahY8LAAxy",
+          "searchTerm": "money rain success",
+          "emotion": "profitable results",
+          "use_case": "ROI and revenue results",
+          "viral_score": 9
+        }
+      ]
+    },
+    {
+      "industry": "Entertainment & Media",
+      "templates": [
+        {
+          "id": "popcorn-eating",
+          "name": "Eating Popcorn Watching",
+          "giphyId": "pUeXcg80cO8I8",
+          "searchTerm": "eating popcorn watching",
+          "emotion": "entertained engagement",
+          "use_case": "Content teasers or binge-worthy shows",
+          "viral_score": 9
+        },
+        {
+          "id": "standing-ovation",
+          "name": "Standing Ovation Clapping",
+          "giphyId": "2xO491sY6f0cM",
+          "searchTerm": "standing ovation clapping",
+          "emotion": "appreciation",
+          "use_case": "Award-winning content or performances",
+          "viral_score": 8
+        },
+        {
+          "id": "binge-watching",
+          "name": "Binge Watching Excited",
+          "giphyId": "l0HlPystfePnYIxWg",
+          "searchTerm": "binge watching excited",
+          "emotion": "addicted engagement",
+          "use_case": "Series launches or streaming content",
+          "viral_score": 8
+        },
+        {
+          "id": "camera-action",
+          "name": "Lights Camera Action",
+          "giphyId": "3o6Zt6ML6BklcajjsA",
+          "searchTerm": "camera action filming",
+          "emotion": "production excitement",
+          "use_case": "Behind-the-scenes or production content",
           "viral_score": 7
         },
         {
-          "id": "trophy-win",
-          "name": "Raising Trophy Victory",
-          "giphyId": "26BRBKqUiq586bRVm",
-          "searchTerm": "trophy win victory",
-          "emotion": "achievement",
-          "use_case": "Financial goals achieved",
-          "viral_score": 7
+          "id": "mind-blown-content",
+          "name": "Mind Blown by Content",
+          "giphyId": "xT0xeJpnrWC4XWblEk",
+          "searchTerm": "mind blown amazed",
+          "emotion": "amazement",
+          "use_case": "Shocking reveals or plot twists",
+          "viral_score": 9
         }
       ]
     },
     {
       "industry": "Education & E-learning",
       "templates": [
-        {
-          "id": "studying-books-pile",
-          "name": "Buried in Books Studying",
-          "giphyId": "l41YqKTI3pFKuI9CE",
-          "searchTerm": "studying books stressed",
-          "emotion": "overwhelm humor",
-          "use_case": "Study stress relief or course simplification",
-          "viral_score": 8
-        },
         {
           "id": "lightbulb-aha-moment",
           "name": "Aha Lightbulb Moment",
@@ -663,234 +272,23 @@
           "viral_score": 8
         },
         {
-          "id": "test-panic",
-          "name": "Test Anxiety Panic",
-          "giphyId": "LRZc4dV2kf1g4",
-          "searchTerm": "test panic anxiety",
-          "emotion": "test stress",
-          "use_case": "Test prep services or study aids",
-          "viral_score": 8
-        }
-      ]
-    },
-    {
-      "industry": "Healthcare & Medical",
-      "templates": [
-        {
-          "id": "doctor-thumbs-up",
-          "name": "Doctor Thumbs Up Approval",
-          "giphyId": "111ebonMs90YLu",
-          "searchTerm": "doctor thumbs up",
-          "emotion": "medical approval",
-          "use_case": "Health check approvals or positive results",
+          "id": "studying-focused",
+          "name": "Focused Studying Learning",
+          "giphyId": "l41YqKTI3pFKuI9CE",
+          "searchTerm": "studying focused learning",
+          "emotion": "dedication",
+          "use_case": "Study programs or intensive courses",
           "viral_score": 7
         },
         {
-          "id": "heart-beating",
-          "name": "Heart Beating Animation",
-          "giphyId": "3ohs7W7ACPrornLhKM",
-          "searchTerm": "heart beating pulse",
-          "emotion": "vitality life",
-          "use_case": "Heart health or wellness programs",
-          "viral_score": 8
-        },
-        {
-          "id": "sleeping-peaceful",
-          "name": "Peaceful Sleeping",
-          "giphyId": "3o6UBpHgaXFDNAuttm",
-          "searchTerm": "sleeping peaceful",
-          "emotion": "rest recovery",
-          "use_case": "Sleep health or rest importance",
-          "viral_score": 7
-        },
-        {
-          "id": "stretching-morning",
-          "name": "Morning Stretch Wake Up",
-          "giphyId": "3oEjHWPTo7c0ajPwty",
-          "searchTerm": "stretching morning wakeup",
-          "emotion": "refreshed energy",
-          "use_case": "Wellness routines or morning health tips",
-          "viral_score": 7
-        },
-        {
-          "id": "water-drinking-hydration",
-          "name": "Drinking Water Hydration",
-          "giphyId": "xT9DPuVYy5uyzoaMBW",
-          "searchTerm": "drinking water hydration",
-          "emotion": "health maintenance",
-          "use_case": "Hydration importance or wellness tips",
-          "viral_score": 7
-        }
-      ]
-    },
-    {
-      "industry": "Fashion & Beauty",
-      "templates": [
-        {
-          "id": "runway-walk-fierce",
-          "name": "Fierce Runway Walk",
-          "giphyId": "l0HlPystfePnYIxWg",
-          "searchTerm": "runway walk fierce",
-          "emotion": "confidence glamour",
-          "use_case": "Fashion show announcements or new collections",
-          "viral_score": 8
-        },
-        {
-          "id": "mirror-selfie-pose",
-          "name": "Mirror Selfie Pose",
-          "giphyId": "26tPqTOGf36VdJlbG",
-          "searchTerm": "mirror selfie pose",
-          "emotion": "self-admiration",
-          "use_case": "Outfit reveals or styling tips",
-          "viral_score": 8
-        },
-        {
-          "id": "hair-flip-fabulous",
-          "name": "Fabulous Hair Flip",
-          "giphyId": "3oEjHYV7yUSoWvtXPy",
-          "searchTerm": "hair flip fabulous",
-          "emotion": "glamorous confidence",
-          "use_case": "Hair care products or styling services",
-          "viral_score": 9
-        },
-        {
-          "id": "lipstick-application",
-          "name": "Perfect Lipstick Application",
-          "giphyId": "3o6Zt6ML6BklcajjsA",
-          "searchTerm": "lipstick application",
-          "emotion": "finishing touch",
-          "use_case": "Lip product launches",
-          "viral_score": 7
-        },
-        {
-          "id": "sunglasses-put-on",
-          "name": "Cool Sunglasses Put On",
-          "giphyId": "3oEjHYV7yUSoWvtXPy",
-          "searchTerm": "sunglasses cool putting on",
-          "emotion": "cool confidence",
-          "use_case": "Eyewear launches or summer collections",
-          "viral_score": 8
-        }
-      ]
-    },
-    {
-      "industry": "Automotive",
-      "templates": [
-        {
-          "id": "car-drifting-fast",
-          "name": "Car Drifting Action",
-          "giphyId": "3o7TKSjRrfIPjeiVyM",
-          "searchTerm": "car drifting fast",
-          "emotion": "adrenaline speed",
-          "use_case": "Performance car features or test drives",
-          "viral_score": 8
-        },
-        {
-          "id": "engine-revving",
-          "name": "Engine Revving Power",
-          "giphyId": "xT9DPUYfZqL3uDSYIE",
-          "searchTerm": "engine revving car",
-          "emotion": "power excitement",
-          "use_case": "Engine power or performance specs",
-          "viral_score": 7
-        },
-        {
-          "id": "keys-toss-catch",
-          "name": "Car Keys Toss and Catch",
-          "giphyId": "3ohhwtQGinneVw1FLy",
-          "searchTerm": "car keys toss",
-          "emotion": "ownership confidence",
-          "use_case": "New car deliveries or sales",
-          "viral_score": 7
-        },
-        {
-          "id": "tire-burnout",
-          "name": "Tire Burnout Smoke",
-          "giphyId": "3o7TKSjRrfIPjeiVyM",
-          "searchTerm": "tire burnout smoke",
-          "emotion": "raw power",
-          "use_case": "Performance tire or muscle car features",
-          "viral_score": 8
-        },
-        {
-          "id": "convertible-top-down",
-          "name": "Convertible Top Going Down",
-          "giphyId": "xT9DPUYfZqL3uDSYIE",
-          "searchTerm": "convertible top down",
-          "emotion": "freedom joy",
-          "use_case": "Convertible models or summer driving",
-          "viral_score": 7
-        }
-      ]
-    },
-    {
-      "industry": "Gaming & Esports",
-      "templates": [
-        {
-          "id": "controller-button-mashing",
-          "name": "Button Mashing Controller",
-          "giphyId": "3oKIPsx2VAYAgEHC12",
-          "searchTerm": "button mashing gaming",
-          "emotion": "intense focus",
-          "use_case": "Competitive gaming or intense gameplay",
-          "viral_score": 8
-        },
-        {
-          "id": "victory-celebration",
-          "name": "Victory Celebration Jump",
+          "id": "success-celebration-learning",
+          "name": "Learning Success Celebration",
           "giphyId": "3ohs7KViF6rA4aan5u",
-          "searchTerm": "victory celebration gaming",
-          "emotion": "triumph",
-          "use_case": "Tournament wins or achievement unlocks",
-          "viral_score": 9
-        },
-        {
-          "id": "rage-quit",
-          "name": "Rage Quit Controller Throw",
-          "giphyId": "l4FGuhL4U2WyjdkaY",
-          "searchTerm": "rage quit gaming",
-          "emotion": "frustration humor",
-          "use_case": "Difficult game challenges or boss fights",
-          "viral_score": 9
-        },
-        {
-          "id": "level-up-glow",
-          "name": "Level Up Power Glow",
-          "giphyId": "3o7aCTfyhYawdOXcFW",
-          "searchTerm": "level up power",
-          "emotion": "power increase",
-          "use_case": "Character progression or upgrades",
+          "searchTerm": "success celebration happy",
+          "emotion": "achievement joy",
+          "use_case": "Skill mastery or learning milestones",
           "viral_score": 8
-        },
-        {
-          "id": "loot-box-opening",
-          "name": "Excited Loot Box Opening",
-          "giphyId": "5GoVLqeAOo6PK",
-          "searchTerm": "excited opening box",
-          "emotion": "anticipation excitement",
-          "use_case": "In-game rewards or loot reveals",
-          "viral_score": 7
         }
-      ]
-    },
-    {
-      "industry": "Entertainment & Media",
-      "templates": [
-        {
-          "id": "popcorn-eating",
-          "name": "Eating Popcorn Watching",
-          "giphyId": "pUeXcg80cO8I8",
-          "searchTerm": "eating popcorn watching",
-          "emotion": "entertained engagement",
-          "use_case": "Content teasers or binge-worthy shows",
-          "viral_score": 9
-        },
-        {
-          "id": "standing-ovation",
-          "name": "Standing Ovation Clapping",
-          "giphyId": "2xO491sY6f0cM",
-          "searchTerm": "standing ovation"
-                  }
       ]
     }
   ]
