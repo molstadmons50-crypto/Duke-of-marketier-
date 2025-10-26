@@ -106,7 +106,6 @@ Return ONLY the viral text in English:`;
 
 /**
  * Select best matching GIF template based on generated text
- * NEW APPROACH: Use weighted randomization instead of AI selection for more variety
  * @param {string} viralText - The generated viral text
  * @param {Array} templates - Available GIF templates
  * @param {string} description - Original product description
@@ -114,44 +113,79 @@ Return ONLY the viral text in English:`;
  */
 async function selectBestTemplate(viralText, templates, description) {
   try {
-    console.log('   🔄 Selecting GIF with weighted randomization...');
+    console.log('   🔄 Analyzing text to select best GIF...');
 
-    // Strategy: Use weighted random selection based on viral scores
-    // This ensures variety while still favoring high-quality templates
+    // NEW: Add randomization to avoid always picking the same GIF
+    const shuffledTemplates = [...templates].sort(() => Math.random() - 0.5);
+    const topTemplates = shuffledTemplates.slice(0, Math.min(8, templates.length));
+
+    const systemPrompt = `You are an expert at matching viral marketing text with GIFs.
+Your job is to analyze the text and select the GIF that best amplifies the message.
+
+You must return ONLY the ID of the best GIF, no explanation.
+Be thoughtful and vary your selections - don't always pick the same GIF for similar content.`;
+
+    const templatesDescription = topTemplates.map(t => 
+      `ID: ${t.id} | Name: ${t.name} | Emotion: ${t.emotion} | Use: ${t.use_case} | Score: ${t.viral_score}/10`
+    ).join('\n');
+
+    const userPrompt = `Viral text: "${viralText}"
+Product: "${description}"
+
+Available GIF templates:
+${templatesDescription}
+
+Select the GIF that:
+1. Best matches the feeling in the text
+2. Visually amplifies the message
+3. Has high viral potential
+4. Matches the product's tone
+5. Creates the strongest emotional impact
+
+Return ONLY the id of the best GIF (e.g. "mind-blown-explosion"):`;
+
+    const completion = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: userPrompt }
+      ],
+      temperature: 0.4, // Slightly higher for variety
+      max_tokens: 50,
+      presence_penalty: 0.3, // NEW: Slight variation in selection
+    });
+
+    let selectedId = completion.choices[0].message.content.trim();
+    selectedId = selectedId.replace(/^["']|["']$/g, ''); // Remove quotes
     
-    // Calculate total weight (sum of all viral scores)
-    const totalWeight = templates.reduce((sum, t) => sum + t.viral_score, 0);
+    console.log('   🎯 AI selected template ID:', selectedId);
+
+    // Find the template by ID
+    let selectedTemplate = templates.find(t => t.id === selectedId);
     
-    // Generate random number between 0 and total weight
-    let random = Math.random() * totalWeight;
-    
-    // Select template based on weighted probability
-    let selectedTemplate = null;
-    for (const template of templates) {
-      random -= template.viral_score;
-      if (random <= 0) {
-        selectedTemplate = template;
-        break;
-      }
-    }
-    
-    // Fallback (shouldn't happen, but just in case)
+    // Fallback: If AI returns invalid ID, pick randomly from top scored templates
     if (!selectedTemplate) {
-      selectedTemplate = templates[Math.floor(Math.random() * templates.length)];
+      console.log('   ⚠️  Invalid template ID, using random high-score template');
+      const topScored = templates
+        .filter(t => t.viral_score >= 7)
+        .sort(() => Math.random() - 0.5); // Randomize
+      
+      selectedTemplate = topScored[0] || templates[0];
     }
 
-    console.log('   🎯 Randomly selected template:', selectedTemplate.id);
     console.log('   ✅ Template selected:', selectedTemplate.name);
-    console.log('   📊 Viral score:', selectedTemplate.viral_score + '/10');
     
     return selectedTemplate;
 
   } catch (error) {
-    console.error('   ⚠️  Template selection failed, using pure random fallback:', error.message);
+    console.error('   ⚠️  Template selection failed, using fallback:', error.message);
     
-    // Pure random fallback
-    const randomIndex = Math.floor(Math.random() * templates.length);
-    return templates[randomIndex];
+    // Fallback: Return random template from high viral scores
+    const highScoreTemplates = templates.filter(t => t.viral_score >= 7);
+    const fallbackPool = highScoreTemplates.length > 0 ? highScoreTemplates : templates;
+    const randomIndex = Math.floor(Math.random() * fallbackPool.length);
+    
+    return fallbackPool[randomIndex];
   }
 }
 
