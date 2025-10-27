@@ -1,0 +1,3624 @@
+{
+  "industries": [
+    {
+      "industry": "SaaS & Productivity Tools",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize you've been doing [task] manually this whole time"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You just discovered the tool that saves you 10 hours/week"
+        },
+        {
+          "type": "hook",
+          "text": "Stop wasting time on [pain point] - here's what actually works"
+        },
+        {
+          "type": "hook",
+          "text": "This changed how I work forever and nobody talks about it"
+        },
+        {
+          "type": "hook",
+          "text": "The productivity hack everyone's sleeping on"
+        },
+        {
+          "type": "hook",
+          "text": "When [software] does in 5 minutes what took you 3 hours"
+        },
+        {
+          "type": "hook",
+          "text": "Nobody told me this tool existed until now"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your workflow before vs after [product]"
+        },
+        {
+          "type": "hook",
+          "text": "If you're still doing [task] manually, watch this"
+        },
+        {
+          "type": "hook",
+          "text": "This is why successful people always seem to have more time"
+        },
+        {
+          "type": "hook",
+          "text": "The one tool that 10x'd my productivity overnight"
+        },
+        {
+          "type": "hook",
+          "text": "When you find out this automation was possible all along"
+        },
+        {
+          "type": "emotion",
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "FOMO"
+        },
+        {
+          "type": "emotion",
+          "text": "productivity-flex"
+        },
+        {
+          "type": "emotion",
+          "text": "frustration-to-joy"
+        },
+        {
+          "type": "emotion",
+          "text": "empowerment"
+        },
+        {
+          "type": "emotion",
+          "text": "investment-savvy"
+        },
+        {
+          "type": "emotion",
+          "text": "homeowner-pride"
+        },
+        {
+          "type": "viral_format",
+          "text": "property transformation reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "rent vs buy calculator shock"
+        },
+        {
+          "type": "viral_format",
+          "text": "investment ROI showcase"
+        },
+        {
+          "type": "viral_format",
+          "text": "neighborhood appreciation data"
+        },
+        {
+          "type": "viral_format",
+          "text": "home tour + numbers breakdown"
+        },
+        {
+          "type": "viral_format",
+          "text": "first-time buyer journey"
+        },
+        {
+          "type": "viral_format",
+          "text": "market trend prediction"
+        },
+        {
+          "type": "viral_format",
+          "text": "hidden deal discovery"
+        },
+        {
+          "type": "pain_point",
+          "text": "Can't afford down payment"
+        },
+        {
+          "type": "pain_point",
+          "text": "Overwhelmed by property search"
+        },
+        {
+          "type": "pain_point",
+          "text": "Fear of making wrong investment"
+        },
+        {
+          "type": "pain_point",
+          "text": "Don't understand mortgage options"
+        },
+        {
+          "type": "pain_point",
+          "text": "Missing out on good deals"
+        },
+        {
+          "type": "pain_point",
+          "text": "No transparency in pricing"
+        },
+        {
+          "type": "pain_point",
+          "text": "Dealing with difficult landlords"
+        },
+        {
+          "type": "pain_point",
+          "text": "Property management stress"
+        },
+        {
+          "type": "pain_point",
+          "text": "Unclear market conditions"
+        },
+        {
+          "type": "pain_point",
+          "text": "High agent commissions"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Instant property valuation"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Hidden listing discovery"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Neighborhood analytics"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Virtual tours + 3D walkthroughs"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Mortgage pre-qualification"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Investment ROI calculator"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Direct owner contact"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Market trend predictions"
+        }
+      ]
+    },
+    {
+      "industry": "Food & Beverage",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you taste this and realize what you've been missing"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You discover the recipe everyone's gatekeeping"
+        },
+        {
+          "type": "hook",
+          "text": "Stop ordering takeout - this is easier and cheaper"
+        },
+        {
+          "type": "hook",
+          "text": "This is why restaurants won't share their [recipe]"
+        },
+        {
+          "type": "hook",
+          "text": "The food hack that changed meal prep forever"
+        },
+        {
+          "type": "hook",
+          "text": "When homemade actually tastes better than restaurant"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your grocery bill before vs after meal planning"
+        },
+        {
+          "type": "hook",
+          "text": "If you haven't tried this combo, you're missing out"
+        },
+        {
+          "type": "hook",
+          "text": "This changed how I think about [ingredient/dish]"
+        },
+        {
+          "type": "hook",
+          "text": "The one kitchen tool that replaced five others"
+        },
+        {
+          "type": "hook",
+          "text": "When you realize cooking doesn't have to be hard"
+        },
+        {
+          "type": "hook",
+          "text": "Stop wasting food - here's the system that works"
+        },
+        {
+          "type": "emotion",
+          "text": "satisfaction"
+        },
+        {
+          "type": "emotion",
+          "text": "discovery-joy"
+        },
+        {
+          "type": "emotion",
+          "text": "comfort"
+        },
+        {
+          "type": "emotion",
+          "text": "pride"
+        },
+        {
+          "type": "emotion",
+          "text": "health-conscious"
+        },
+        {
+          "type": "emotion",
+          "text": "cultural-connection"
+        },
+        {
+          "type": "viral_format",
+          "text": "recipe reveal + taste test"
+        },
+        {
+          "type": "viral_format",
+          "text": "meal prep time-lapse"
+        },
+        {
+          "type": "viral_format",
+          "text": "ingredient swap surprise"
+        },
+        {
+          "type": "viral_format",
+          "text": "cost comparison breakdown"
+        },
+        {
+          "type": "viral_format",
+          "text": "cooking hack demonstration"
+        },
+        {
+          "type": "viral_format",
+          "text": "restaurant vs homemade"
+        },
+        {
+          "type": "viral_format",
+          "text": "dietary transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "cultural food journey"
+        },
+        {
+          "type": "pain_point",
+          "text": "No time to cook healthy meals"
+        },
+        {
+          "type": "pain_point",
+          "text": "Expensive grocery bills"
+        },
+        {
+          "type": "pain_point",
+          "text": "Food waste"
+        },
+        {
+          "type": "pain_point",
+          "text": "Boring repetitive meals"
+        },
+        {
+          "type": "pain_point",
+          "text": "Don't know how to cook"
+        },
+        {
+          "type": "pain_point",
+          "text": "Dietary restrictions limiting options"
+        },
+        {
+          "type": "pain_point",
+          "text": "Meal planning overwhelm"
+        },
+        {
+          "type": "pain_point",
+          "text": "Delivery fees adding up"
+        },
+        {
+          "type": "pain_point",
+          "text": "Inconsistent portion sizes"
+        },
+        {
+          "type": "pain_point",
+          "text": "Finding quality ingredients"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Ready in under 30 minutes"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Saves money vs eating out"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Customizable for dietary needs"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Pre-portioned ingredients"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Step-by-step video instructions"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Zero food waste"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Restaurant-quality at home"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Subscription flexibility"
+        }
+      ]
+    },
+    {
+      "industry": "Fitness & Personal Training",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you see results in 30 days doing this at home"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You realize gym memberships are a waste"
+        },
+        {
+          "type": "hook",
+          "text": "Stop doing [exercise] wrong - here's the right way"
+        },
+        {
+          "type": "hook",
+          "text": "This is what trainers charge $200/session to teach you"
+        },
+        {
+          "type": "hook",
+          "text": "The workout that actually gave me visible results"
+        },
+        {
+          "type": "hook",
+          "text": "When consistency finally clicks and this happens"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Month 1 vs Month 6 of [program]"
+        },
+        {
+          "type": "hook",
+          "text": "If you're not seeing results, you're training wrong"
+        },
+        {
+          "type": "hook",
+          "text": "This changed my body composition without extreme dieting"
+        },
+        {
+          "type": "hook",
+          "text": "The one workout that replaced an hour at the gym"
+        },
+        {
+          "type": "hook",
+          "text": "When you transform your body without giving up [food]"
+        },
+        {
+          "type": "hook",
+          "text": "Stop making excuses - here's proof it's possible"
+        },
+        {
+          "type": "emotion",
+          "text": "motivation"
+        },
+        {
+          "type": "emotion",
+          "text": "transformation-pride"
+        },
+        {
+          "type": "emotion",
+          "text": "determination"
+        },
+        {
+          "type": "emotion",
+          "text": "body-confidence"
+        },
+        {
+          "type": "emotion",
+          "text": "achievement"
+        },
+        {
+          "type": "emotion",
+          "text": "empowerment"
+        },
+        {
+          "type": "viral_format",
+          "text": "transformation timeline"
+        },
+        {
+          "type": "viral_format",
+          "text": "workout demonstration"
+        },
+        {
+          "type": "viral_format",
+          "text": "form correction"
+        },
+        {
+          "type": "viral_format",
+          "text": "progress photo series"
+        },
+        {
+          "type": "viral_format",
+          "text": "fitness challenge completion"
+        },
+        {
+          "type": "viral_format",
+          "text": "at-home vs gym comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "body composition change"
+        },
+        {
+          "type": "viral_format",
+          "text": "strength milestone celebration"
+        },
+        {
+          "type": "pain_point",
+          "text": "No time for gym"
+        },
+        {
+          "type": "pain_point",
+          "text": "Expensive personal training"
+        },
+        {
+          "type": "pain_point",
+          "text": "Feeling intimidated at gym"
+        },
+        {
+          "type": "pain_point",
+          "text": "Not seeing results despite effort"
+        },
+        {
+          "type": "pain_point",
+          "text": "Injury concerns"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of motivation/accountability"
+        },
+        {
+          "type": "pain_point",
+          "text": "Don't know where to start"
+        },
+        {
+          "type": "pain_point",
+          "text": "Plateau in progress"
+        },
+        {
+          "type": "pain_point",
+          "text": "Post-workout soreness"
+        },
+        {
+          "type": "pain_point",
+          "text": "Balancing fitness with busy schedule"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Work out anywhere, anytime"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Personalized training plans"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Progress tracking built-in"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Expert form guidance"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Injury prevention focus"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Community accountability"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Flexible workout lengths"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Results in weeks, not months"
+        }
+      ]
+    },
+    {
+      "industry": "Mental Health & Therapy",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize therapy doesn't have to cost $200/session"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your mental health journey before vs after getting help"
+        },
+        {
+          "type": "hook",
+          "text": "Stop suffering in silence - here's what actually helps"
+        },
+        {
+          "type": "hook",
+          "text": "This is what changed when I finally prioritized my mental health"
+        },
+        {
+          "type": "hook",
+          "text": "The therapy tool that made sessions actually affordable"
+        },
+        {
+          "type": "hook",
+          "text": "When you find the right therapist on the first try"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Learning coping mechanisms that actually work"
+        },
+        {
+          "type": "hook",
+          "text": "If you've been putting off therapy, this is your sign"
+        },
+        {
+          "type": "hook",
+          "text": "This changed how I handle anxiety/depression forever"
+        },
+        {
+          "type": "hook",
+          "text": "The one practice that improved my mental health daily"
+        },
+        {
+          "type": "hook",
+          "text": "When you realize healing is possible and worth it"
+        },
+        {
+          "type": "hook",
+          "text": "Stop normalizing burnout - here's what helped me"
+        },
+        {
+          "type": "emotion",
+          "text": "hope"
+        },
+        {
+          "type": "emotion",
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "validation"
+        },
+        {
+          "type": "emotion",
+          "text": "healing"
+        },
+        {
+          "type": "emotion",
+          "text": "self-compassion"
+        },
+        {
+          "type": "emotion",
+          "text": "breakthrough-moment"
+        },
+        {
+          "type": "viral_format",
+          "text": "mental health journey story"
+        },
+        {
+          "type": "viral_format",
+          "text": "coping mechanism demonstration"
+        },
+        {
+          "type": "viral_format",
+          "text": "therapy session insights"
+        },
+        {
+          "type": "viral_format",
+          "text": "before/after mental state"
+        },
+        {
+          "type": "viral_format",
+          "text": "destigmatization message"
+        },
+        {
+          "type": "viral_format",
+          "text": "self-care routine reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "breakthrough moment share"
+        },
+        {
+          "type": "viral_format",
+          "text": "community support highlight"
+        },
+        {
+          "type": "pain_point",
+          "text": "Therapy too expensive"
+        },
+        {
+          "type": "pain_point",
+          "text": "Long waitlists for therapists"
+        },
+        {
+          "type": "pain_point",
+          "text": "Stigma around seeking help"
+        },
+        {
+          "type": "pain_point",
+          "text": "Previous therapy didn't work"
+        },
+        {
+          "type": "pain_point",
+          "text": "No access to mental health services"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficulty finding right therapist match"
+        },
+        {
+          "type": "pain_point",
+          "text": "Insurance doesn't cover therapy"
+        },
+        {
+          "type": "pain_point",
+          "text": "Scheduling conflicts"
+        },
+        {
+          "type": "pain_point",
+          "text": "Fear of judgment"
+        },
+        {
+          "type": "pain_point",
+          "text": "Don't know where to start"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Affordable therapy access"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Licensed professional therapists"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Flexible scheduling (24/7)"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Complete privacy/confidentiality"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Specialized therapist matching"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Insurance accepted"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Text/video/phone options"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Evidence-based approaches"
+        }
+      ]
+    },
+    {
+      "industry": "Travel & Hospitality",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you book this and pay half what everyone else paid"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You discover the destination nobody's talking about"
+        },
+        {
+          "type": "hook",
+          "text": "Stop overpaying for hotels - here's the insider secret"
+        },
+        {
+          "type": "hook",
+          "text": "This is how I travel full-time on a normal salary"
+        },
+        {
+          "type": "hook",
+          "text": "The travel hack that changed how I see the world"
+        },
+        {
+          "type": "hook",
+          "text": "When you visit during off-season and have it to yourself"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your travel budget before vs after using [tool]"
+        },
+        {
+          "type": "hook",
+          "text": "If you're not booking this way, you're wasting money"
+        },
+        {
+          "type": "hook",
+          "text": "This changed my approach to travel planning forever"
+        },
+        {
+          "type": "hook",
+          "text": "The one travel app that replaced my travel agent"
+        },
+        {
+          "type": "hook",
+          "text": "When you realize luxury travel is actually affordable"
+        },
+        {
+          "type": "hook",
+          "text": "Stop dreaming about travel - here's how to make it happen"
+        },
+        {
+          "type": "emotion",
+          "text": "wanderlust"
+        },
+        {
+          "type": "emotion",
+          "text": "FOMO"
+        },
+        {
+          "type": "emotion",
+          "text": "adventure"
+        },
+        {
+          "type": "emotion",
+          "text": "freedom"
+        },
+        {
+          "type": "emotion",
+          "text": "discovery"
+        },
+        {
+          "type": "emotion",
+          "text": "cultural-enrichment"
+        },
+        {
+          "type": "viral_format",
+          "text": "hidden destination reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "travel cost breakdown"
+        },
+        {
+          "type": "viral_format",
+          "text": "packing hack demonstration"
+        },
+        {
+          "type": "viral_format",
+          "text": "local experience showcase"
+        },
+        {
+          "type": "viral_format",
+          "text": "budget vs luxury comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "itinerary walkthrough"
+        },
+        {
+          "type": "viral_format",
+          "text": "cultural immersion story"
+        },
+        {
+          "type": "viral_format",
+          "text": "travel mistake prevention"
+        },
+        {
+          "type": "pain_point",
+          "text": "Travel too expensive"
+        },
+        {
+          "type": "pain_point",
+          "text": "Don't know where to start planning"
+        },
+        {
+          "type": "pain_point",
+          "text": "Fear of language barriers"
+        },
+        {
+          "type": "pain_point",
+          "text": "Safety concerns"
+        },
+        {
+          "type": "pain_point",
+          "text": "Overwhelming hotel/flight options"
+        },
+        {
+          "type": "pain_point",
+          "text": "Hidden fees and charges"
+        },
+        {
+          "type": "pain_point",
+          "text": "Bad reviews after booking"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficulty finding authentic experiences"
+        },
+        {
+          "type": "pain_point",
+          "text": "Vacation time limitations"
+        },
+        {
+          "type": "pain_point",
+          "text": "Solo travel anxiety"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Price match guarantee"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Curated local experiences"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Flexible cancellation"
+        },
+        {
+          "type": "value_proposition",
+          "text": "24/7 travel support"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Insider destination guides"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Transparent pricing"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Verified reviews only"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Personalized itineraries"
+        }
+      ]
+    },
+    {
+      "industry": "HR & Recruitment",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize hiring doesn't have to take 3 months"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your recruitment process before vs after [tool]"
+        },
+        {
+          "type": "hook",
+          "text": "Stop losing top talent to competitors - here's why"
+        },
+        {
+          "type": "hook",
+          "text": "This is how companies find A-players in days, not weeks"
+        },
+        {
+          "type": "hook",
+          "text": "The hiring tool that actually filters out bad candidates"
+        },
+        {
+          "type": "hook",
+          "text": "When you automate screening and this happens"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your hiring success rate with data-driven recruiting"
+        },
+        {
+          "type": "hook",
+          "text": "If you're still manually reviewing resumes, watch this"
+        },
+        {
+          "type": "hook",
+          "text": "This changed our company culture and retention forever"
+        },
+        {
+          "type": "hook",
+          "text": "The one HR tool that reduced turnover by 40%"
+        },
+        {
+          "type": "hook",
+          "text": "When you treat candidates like humans and they actually accept"
+        },
+        {
+          "type": "hook",
+          "text": "Stop hiring based on gut feeling - here's what works"
+        },
+        {
+          "type": "emotion",
+          "text": "efficiency"
+        },
+        {
+          "type": "emotion",
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "confidence"
+        },
+        {
+          "type": "emotion",
+          "text": "competitive-advantage"
+        },
+        {
+          "type": "emotion",
+          "text": "team-pride"
+        },
+        {
+          "type": "emotion",
+          "text": "growth-mindset"
+        },
+        {
+          "type": "viral_format",
+          "text": "hiring timeline comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "candidate experience story"
+        },
+        {
+          "type": "viral_format",
+          "text": "retention stats reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "recruitment automation demo"
+        },
+        {
+          "type": "viral_format",
+          "text": "culture fit assessment"
+        },
+        {
+          "type": "viral_format",
+          "text": "diversity hiring impact"
+        },
+        {
+          "type": "viral_format",
+          "text": "onboarding transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "employer brand showcase"
+        },
+        {
+          "type": "pain_point",
+          "text": "Long time-to-hire"
+        },
+        {
+          "type": "pain_point",
+          "text": "High candidate drop-off"
+        },
+        {
+          "type": "pain_point",
+          "text": "Poor quality applicants"
+        },
+        {
+          "type": "pain_point",
+          "text": "Biased hiring decisions"
+        },
+        {
+          "type": "pain_point",
+          "text": "High employee turnover"
+        },
+        {
+          "type": "pain_point",
+          "text": "Expensive recruitment agencies"
+        },
+        {
+          "type": "pain_point",
+          "text": "Manual resume screening"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficulty assessing culture fit"
+        },
+        {
+          "type": "pain_point",
+          "text": "Onboarding inefficiencies"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of diversity in pipeline"
+        },
+        {
+          "type": "value_proposition",
+          "text": "AI-powered candidate matching"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Automated screening workflows"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Bias-free assessments"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Faster time-to-hire"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Integrated onboarding"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Candidate experience tracking"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Diversity analytics"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Predictive retention insights"
+        }
+      ]
+    },
+    {
+      "industry": "Project Management",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize your team has been using the wrong PM tool"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your project deadlines before vs after [tool]"
+        },
+        {
+          "type": "hook",
+          "text": "Stop drowning in status update meetings - automate this"
+        },
+        {
+          "type": "hook",
+          "text": "This is how high-performing teams actually manage projects"
+        },
+        {
+          "type": "hook",
+          "text": "The PM tool that eliminated our daily standups"
+        },
+        {
+          "type": "hook",
+          "text": "When visibility finally exists across all projects"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your team collaboration after switching tools"
+        },
+        {
+          "type": "hook",
+          "text": "If you're still using spreadsheets for PM, you're behind"
+        },
+        {
+          "type": "hook",
+          "text": "This changed how our remote team works together"
+        },
+        {
+          "type": "hook",
+          "text": "The one feature that saved us from project chaos"
+        },
+        {
+          "type": "hook",
+          "text": "When you stop micromanaging and projects still succeed"
+        },
+        {
+          "type": "hook",
+          "text": "Stop context-switching between 10 tools - here's the solution"
+        },
+        {
+          "type": "emotion",
+          "text": "control"
+        },
+        {
+          "type": "emotion",
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "team-unity"
+        },
+        {
+          "type": "emotion",
+          "text": "achievement"
+        },
+        {
+          "type": "emotion",
+          "text": "clarity"
+        },
+        {
+          "type": "emotion",
+          "text": "efficiency-pride"
+        },
+        {
+          "type": "viral_format",
+          "text": "project timeline success story"
+        },
+        {
+          "type": "viral_format",
+          "text": "team workflow transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "deadline met celebration"
+        },
+        {
+          "type": "viral_format",
+          "text": "chaos to organized reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "remote collaboration showcase"
+        },
+        {
+          "type": "viral_format",
+          "text": "feature demonstration"
+        },
+        {
+          "type": "viral_format",
+          "text": "productivity metrics reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "tool comparison breakdown"
+        },
+        {
+          "type": "pain_point",
+          "text": "Missed deadlines"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of project visibility"
+        },
+        {
+          "type": "pain_point",
+          "text": "Team miscommunication"
+        },
+        {
+          "type": "pain_point",
+          "text": "Resource allocation chaos"
+        },
+        {
+          "type": "pain_point",
+          "text": "Too many status meetings"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficulty tracking dependencies"
+        },
+        {
+          "type": "pain_point",
+          "text": "No single source of truth"
+        },
+        {
+          "type": "pain_point",
+          "text": "Bottlenecks not identified early"
+        },
+        {
+          "type": "pain_point",
+          "text": "Client communication gaps"
+        },
+        {
+          "type": "pain_point",
+          "text": "Scope creep issues"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Real-time project visibility"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Automated progress tracking"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Team collaboration built-in"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Customizable workflows"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Resource management tools"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Client portal included"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Integration with existing tools"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Predictive timeline alerts"
+        }
+      ]
+    },
+    {
+      "industry": "Customer Support & CRM",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize your customer support is losing you sales"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your response time before vs after [CRM]"
+        },
+        {
+          "type": "hook",
+          "text": "Stop losing customers to poor support - here's the fix"
+        },
+        {
+          "type": "hook",
+          "text": "This is how companies maintain 98% customer satisfaction"
+        },
+        {
+          "type": "hook",
+          "text": "The CRM that actually helps close deals, not just track them"
+        },
+        {
+          "type": "hook",
+          "text": "When automation handles 80% of support tickets"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your customer retention after implementing [tool]"
+        },
+        {
+          "type": "hook",
+          "text": "If you're manually tracking customer interactions, watch this"
+        },
+        {
+          "type": "hook",
+          "text": "This changed our customer lifetime value overnight"
+        },
+        {
+          "type": "hook",
+          "text": "The one feature that turned support into a profit center"
+        },
+        {
+          "type": "hook",
+          "text": "When you treat customers like humans and revenue increases"
+        },
+        {
+          "type": "hook",
+          "text": "Stop letting support tickets fall through the cracks"
+        },
+        {
+          "type": "emotion",
+          "text": "customer-love"
+        },
+        {
+          "type": "emotion",
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "efficiency"
+        },
+        {
+          "type": "emotion",
+          "text": "growth"
+        },
+        {
+          "type": "emotion",
+          "text": "service-pride"
+        },
+        {
+          "type": "emotion",
+          "text": "relationship-building"
+        },
+        {
+          "type": "viral_format",
+          "text": "customer success story"
+        },
+        {
+          "type": "viral_format",
+          "text": "response time improvement"
+        },
+        {
+          "type": "viral_format",
+          "text": "satisfaction score reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "automation workflow demo"
+        },
+        {
+          "type": "viral_format",
+          "text": "retention rate increase"
+        },
+        {
+          "type": "viral_format",
+          "text": "support team transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "personalization at scale"
+        },
+        {
+          "type": "viral_format",
+          "text": "revenue impact showcase"
+        },
+        {
+          "type": "pain_point",
+          "text": "Slow response times"
+        },
+        {
+          "type": "pain_point",
+          "text": "Tickets getting lost"
+        },
+        {
+          "type": "pain_point",
+          "text": "Inconsistent customer experience"
+        },
+        {
+          "type": "pain_point",
+          "text": "No customer history visibility"
+        },
+        {
+          "type": "pain_point",
+          "text": "Support team burnout"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficult to scale support"
+        },
+        {
+          "type": "pain_point",
+          "text": "Can't track customer sentiment"
+        },
+        {
+          "type": "pain_point",
+          "text": "Multiple tools, no integration"
+        },
+        {
+          "type": "pain_point",
+          "text": "Poor handoff between teams"
+        },
+        {
+          "type": "pain_point",
+          "text": "No proactive support capability"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Omnichannel support unified"
+        },
+        {
+          "type": "value_proposition",
+          "text": "AI-powered ticket routing"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Complete customer history"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Automated responses"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Sentiment analysis built-in"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Team collaboration tools"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Self-service portal"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Proactive support alerts"
+        }
+      ]
+    },
+    {
+      "industry": "Content Creation & Media",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you create pro-level content without expensive equipment"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your content quality before vs after [tool]"
+        },
+        {
+          "type": "hook",
+          "text": "Stop letting editing slow down your content output"
+        },
+        {
+          "type": "hook",
+          "text": "This is how creators with millions of views edit their content"
+        },
+        {
+          "type": "hook",
+          "text": "The content tool that replaced my entire creative suite"
+        },
+        {
+          "type": "hook",
+          "text": "When you batch-create a month of content in one day"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your engagement after improving content quality"
+        },
+        {
+          "type": "hook",
+          "text": "If you're still editing manually, you're wasting hours daily"
+        },
+        {
+          "type": "hook",
+          "text": "This changed how I approach content creation forever"
+        },
+        {
+          "type": "hook",
+          "text": "The one tool that made me look like a professional editor"
+        },
+        {
+          "type": "hook",
+          "text": "When AI helps you create without losing your creative voice"
+        },
+        {
+          "type": "hook",
+          "text": "Stop posting inconsistently - here's the content system"
+        },
+        {
+          "type": "emotion",
+          "text": "creative-flow"
+        },
+        {
+          "type": "emotion",
+          "text": "pride"
+        },
+        {
+          "type": "emotion",
+          "text": "efficiency"
+        },
+        {
+          "type": "emotion",
+          "text": "professional-credibility"
+        },
+        {
+          "type": "emotion",
+          "text": "artistic-expression"
+        },
+        {
+          "type": "emotion",
+          "text": "audience-connection"
+        },
+        {
+          "type": "viral_format",
+          "text": "editing process reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "content quality comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "creator workflow showcase"
+        },
+        {
+          "type": "viral_format",
+          "text": "batch creation demo"
+        },
+        {
+          "type": "viral_format",
+          "text": "before/after edit"
+        },
+        {
+          "type": "viral_format",
+          "text": "engagement growth story"
+        },
+        {
+          "type": "viral_format",
+          "text": "creative process breakdown"
+        },
+        {
+          "type": "viral_format",
+          "text": "tool efficiency demonstration"
+        },
+        {
+          "type": "pain_point",
+          "text": "Editing takes too long"
+        },
+        {
+          "type": "pain_point",
+          "text": "Expensive creative software"
+        },
+        {
+          "type": "pain_point",
+          "text": "Steep learning curves"
+        },
+        {
+          "type": "pain_point",
+          "text": "Inconsistent posting schedule"
+        },
+        {
+          "type": "pain_point",
+          "text": "Running out of ideas"
+        },
+        {
+          "type": "pain_point",
+          "text": "Low production quality"
+        },
+        {
+          "type": "pain_point",
+          "text": "File management chaos"
+        },
+        {
+          "type": "pain_point",
+          "text": "Collaboration difficulties"
+        },
+        {
+          "type": "pain_point",
+          "text": "Version control issues"
+        },
+        {
+          "type": "pain_point",
+          "text": "Platform-specific formatting"
+        },
+        {
+          "type": "value_proposition",
+          "text": "AI-powered editing assistance"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Template library included"
+        },
+        {
+          "type": "value_proposition",
+          "text": "One-click platform optimization"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Cloud collaboration"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Auto-captioning/subtitles"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Stock media library"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Brand kit management"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Multi-format export"
+        }
+      ]
+    },
+    {
+      "industry": "Community & Networking",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize your network is your net worth"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your opportunities before vs after building community"
+        },
+        {
+          "type": "hook",
+          "text": "Stop networking alone - here's how communities change careers"
+        },
+        {
+          "type": "hook",
+          "text": "This is how successful people actually build connections"
+        },
+        {
+          "type": "hook",
+          "text": "The community that led to my biggest career breakthrough"
+        },
+        {
+          "type": "hook",
+          "text": "When you find your people and everything changes"
+        },
+        {
+          "type": "hook",
+          "text": "POV: The collaboration that only happened because of community"
+        },
+        {
+          "type": "hook",
+          "text": "If you're building alone, you're doing it the hard way"
+        },
+        {
+          "type": "hook",
+          "text": "This changed my approach to professional relationships"
+        },
+        {
+          "type": "hook",
+          "text": "The one community that replaced LinkedIn for me"
+        },
+        {
+          "type": "hook",
+          "text": "When genuine connection beats transactional networking"
+        },
+        {
+          "type": "hook",
+          "text": "Stop collecting contacts - start building relationships"
+        },
+        {
+          "type": "emotion",
+          "text": "belonging"
+        },
+        {
+          "type": "emotion",
+          "text": "opportunity"
+        },
+        {
+          "type": "emotion",
+          "text": "mutual-support"
+        },
+        {
+          "type": "emotion",
+          "text": "collaboration"
+        },
+        {
+          "type": "emotion",
+          "text": "empowerment"
+        },
+        {
+          "type": "emotion",
+          "text": "authentic-connection"
+        },
+        {
+          "type": "viral_format",
+          "text": "community success story"
+        },
+        {
+          "type": "viral_format",
+          "text": "collaboration showcase"
+        },
+        {
+          "type": "viral_format",
+          "text": "networking transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "opportunity discovery"
+        },
+        {
+          "type": "viral_format",
+          "text": "member spotlight series"
+        },
+        {
+          "type": "viral_format",
+          "text": "community impact reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "connection to opportunity path"
+        },
+        {
+          "type": "viral_format",
+          "text": "culture showcase"
+        },
+        {
+          "type": "pain_point",
+          "text": "Feeling isolated professionally"
+        },
+        {
+          "type": "pain_point",
+          "text": "Networking feels transactional"
+        },
+        {
+          "type": "pain_point",
+          "text": "No access to relevant connections"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficulty finding collaborators"
+        },
+        {
+          "type": "pain_point",
+          "text": "Missing industry insights"
+        },
+        {
+          "type": "pain_point",
+          "text": "No peer support system"
+        },
+        {
+          "type": "pain_point",
+          "text": "LinkedIn fatigue"
+        },
+        {
+          "type": "pain_point",
+          "text": "Superficial professional relationships"
+        },
+        {
+          "type": "pain_point",
+          "text": "Imposter syndrome in networking"
+        },
+        {
+          "type": "pain_point",
+          "text": "Time zone barriers for global connection"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Curated community (quality over quantity)"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Meaningful connection facilitation"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Expert-led discussions"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Collaboration matchmaking"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Private, safe space"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Industry-specific focus"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Events + workshops included"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Mentorship opportunities"
+        }
+      ]
+    },
+    {
+      "industry": "Booking & Scheduling",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize scheduling doesn't have to be a nightmare"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your calendar before vs after automation"
+        },
+        {
+          "type": "hook",
+          "text": "Stop playing email tag to book meetings - here's the fix"
+        },
+        {
+          "type": "hook",
+          "text": "This is how busy professionals manage their time"
+        },
+        {
+          "type": "hook",
+          "text": "The scheduling tool that gave me back 5 hours/week"
+        },
+        {
+          "type": "hook",
+          "text": "When clients can book instantly and show-up rate increases"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your no-show rate after implementing reminders"
+        },
+        {
+          "type": "hook",
+          "text": "If you're manually coordinating schedules, watch this"
+        },
+        {
+          "type": "hook",
+          "text": "This changed how I manage my time and boundaries"
+        },
+        {
+          "type": "hook",
+          "text": "The one feature that eliminated double-bookings forever"
+        },
+        {
+          "type": "hook",
+          "text": "When your availability syncs and life gets easier"
+        },
+        {
+          "type": "hook",
+          "text": "Stop losing revenue to scheduling friction"
+        },
+        {
+          "type": "emotion",
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "control"
+        },
+        {
+          "type": "emotion",
+          "text": "professionalism"
+        },
+        {
+          "type": "emotion",
+          "text": "efficiency"
+        },
+        {
+          "type": "emotion",
+          "text": "boundary-respect"
+        },
+        {
+          "type": "emotion",
+          "text": "time-freedom"
+        },
+        {
+          "type": "viral_format",
+          "text": "time saved calculation"
+        },
+        {
+          "type": "viral_format",
+          "text": "booking flow demonstration"
+        },
+        {
+          "type": "viral_format",
+          "text": "no-show reduction story"
+        },
+        {
+          "type": "viral_format",
+          "text": "calendar chaos to zen"
+        },
+        {
+          "type": "viral_format",
+          "text": "client experience improvement"
+        },
+        {
+          "type": "viral_format",
+          "text": "automation workflow reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "productivity transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "professional image upgrade"
+        },
+        {
+          "type": "pain_point",
+          "text": "Email back-and-forth to schedule"
+        },
+        {
+          "type": "pain_point",
+          "text": "Double-bookings"
+        },
+        {
+          "type": "pain_point",
+          "text": "High no-show rates"
+        },
+        {
+          "type": "pain_point",
+          "text": "Time zone confusion"
+        },
+        {
+          "type": "pain_point",
+          "text": "Last-minute cancellations"
+        },
+        {
+          "type": "pain_point",
+          "text": "Manual reminder sending"
+        },
+        {
+          "type": "pain_point",
+          "text": "No buffer time between meetings"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficult rescheduling process"
+        },
+        {
+          "type": "pain_point",
+          "text": "Multiple calendar conflicts"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of booking flexibility"
+        },
+        {
+          "type": "value_proposition",
+          "text": "One-click booking"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Automated reminders"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Time zone detection"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Calendar integration"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Customizable availability"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Buffer time management"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Payment collection"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Cancellation policies enforced"
+        }
+      ]
+    },
+    {
+      "industry": "Agriculture & Sustainability",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize sustainable farming is actually more profitable"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your harvest before vs after data-driven decisions"
+        },
+        {
+          "type": "hook",
+          "text": "Stop guessing - here's how tech transforms agriculture"
+        },
+        {
+          "type": "hook",
+          "text": "This is how modern farmers maximize yield sustainably"
+        },
+        {
+          "type": "hook",
+          "text": "The ag-tech tool that increased profits by 30%"
+        },
+        {
+          "type": "hook",
+          "text": "When you see the environmental impact of your choices"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Traditional farming vs precision agriculture"
+        },
+        {
+          "type": "hook",
+          "text": "If you're farming without data, you're leaving money on the table"
+        },
+        {
+          "type": "hook",
+          "text": "This changed how I think about food production"
+        },
+        {
+          "type": "hook",
+          "text": "The one innovation that saved our family farm"
+        },
+        {
+          "type": "hook",
+          "text": "When sustainability meets profitability and both win"
+        },
+        {
+          "type": "hook",
+          "text": "Stop depleting soil - here's regenerative agriculture"
+        },
+        {
+          "type": "emotion",
+          "text": "stewardship"
+        },
+        {
+          "type": "emotion",
+          "text": "innovation-pride"
+        },
+        {
+          "type": "emotion",
+          "text": "environmental-responsibility"
+        },
+        {
+          "type": "emotion",
+          "text": "profitability"
+        },
+        {
+          "type": "emotion",
+          "text": "legacy"
+        },
+        {
+          "type": "emotion",
+          "text": "hope-for-future"
+        },
+        {
+          "type": "viral_format",
+          "text": "yield improvement story"
+        },
+        {
+          "type": "viral_format",
+          "text": "sustainability transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "tech adoption journey"
+        },
+        {
+          "type": "viral_format",
+          "text": "environmental impact reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "cost savings demonstration"
+        },
+        {
+          "type": "viral_format",
+          "text": "generational farm story"
+        },
+        {
+          "type": "viral_format",
+          "text": "season-over-season comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "innovation showcase"
+        },
+        {
+          "type": "pain_point",
+          "text": "Unpredictable weather impacts"
+        },
+        {
+          "type": "pain_point",
+          "text": "Rising input costs"
+        },
+        {
+          "type": "pain_point",
+          "text": "Labor shortages"
+        },
+        {
+          "type": "pain_point",
+          "text": "Soil degradation"
+        },
+        {
+          "type": "pain_point",
+          "text": "Water scarcity"
+        },
+        {
+          "type": "pain_point",
+          "text": "Pest/disease management"
+        },
+        {
+          "type": "pain_point",
+          "text": "Market price volatility"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of data for decisions"
+        },
+        {
+          "type": "pain_point",
+          "text": "Equipment maintenance costs"
+        },
+        {
+          "type": "pain_point",
+          "text": "Generational knowledge gap"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Precision farming insights"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Weather prediction integration"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Input cost optimization"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Yield forecasting"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Soil health monitoring"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Water usage efficiency"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Pest detection early warning"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Sustainable practice guidance"
+        }
+      ]
+    },
+    {
+      "industry": "Fashion & Beauty",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you find the dupe that's actually better than the original"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your skin/style before vs after discovering this"
+        },
+        {
+          "type": "hook",
+          "text": "Stop overpaying for designer when this exists"
+        },
+        {
+          "type": "hook",
+          "text": "This is what makeup artists actually use"
+        },
+        {
+          "type": "hook",
+          "text": "The beauty product that replaced my entire routine"
+        },
+        {
+          "type": "hook",
+          "text": "When the before and after actually shocks you"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You find your signature style finally"
+        },
+        {
+          "type": "hook",
+          "text": "If you haven't tried this yet, what are you doing?"
+        },
+        {
+          "type": "hook",
+          "text": "This changed my confidence and everyone noticed"
+        },
+        {
+          "type": "hook",
+          "text": "The one product that's worth the hype"
+        },
+        {
+          "type": "hook",
+          "text": "When sustainable fashion is actually affordable"
+        },
+        {
+          "type": "hook",
+          "text": "Stop following trends - here's how to find your style"
+        },
+        {
+          "type": "emotion",
+          "text": "confidence"
+        },
+        {
+          "type": "emotion",
+          "text": "self-expression"
+        },
+        {
+          "type": "emotion",
+          "text": "transformation"
+        },
+        {
+          "type": "emotion",
+          "text": "discovery"
+        },
+        {
+          "type": "emotion",
+          "text": "luxury-accessible"
+        },
+        {
+          "type": "emotion",
+          "text": "sustainability-conscious"
+        },
+        {
+          "type": "viral_format",
+          "text": "transformation reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "get ready with me"
+        },
+        {
+          "type": "viral_format",
+          "text": "dupe comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "routine breakdown"
+        },
+        {
+          "type": "viral_format",
+          "text": "product review montage"
+        },
+        {
+          "type": "viral_format",
+          "text": "style evolution"
+        },
+        {
+          "type": "viral_format",
+          "text": "confidence boost story"
+        },
+        {
+          "type": "viral_format",
+          "text": "sustainable choice showcase"
+        },
+        {
+          "type": "pain_point",
+          "text": "Products too expensive"
+        },
+        {
+          "type": "pain_point",
+          "text": "Don't know what suits them"
+        },
+        {
+          "type": "pain_point",
+          "text": "Skin sensitivity issues"
+        },
+        {
+          "type": "pain_point",
+          "text": "Fast fashion guilt"
+        },
+        {
+          "type": "pain_point",
+          "text": "Overwhelming product choices"
+        },
+        {
+          "type": "pain_point",
+          "text": "Trends changing too fast"
+        },
+        {
+          "type": "pain_point",
+          "text": "Size/fit inconsistencies"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of inclusive options"
+        },
+        {
+          "type": "pain_point",
+          "text": "Unsustainable practices"
+        },
+        {
+          "type": "pain_point",
+          "text": "Beauty routine too complex"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Affordable luxury quality"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Personalized recommendations"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Inclusive sizing/shades"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Sustainable materials"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Cruelty-free certified"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Virtual try-on"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Subscription flexibility"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Simple effective routines"
+        }
+      ]
+    },
+    {
+      "industry": "Gaming & Entertainment",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you discover the game everyone's sleeping on"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your gaming setup before vs after this upgrade"
+        },
+        {
+          "type": "hook",
+          "text": "Stop paying full price - here's how gamers save money"
+        },
+        {
+          "type": "hook",
+          "text": "This is what pro gamers actually use"
+        },
+        {
+          "type": "hook",
+          "text": "The gaming platform that changed everything"
+        },
+        {
+          "type": "hook",
+          "text": "When you finally hit that achievement and it feels amazing"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your KD ratio after using [tool/service]"
+        },
+        {
+          "type": "hook",
+          "text": "If you're not on this platform yet, you're missing out"
+        },
+        {
+          "type": "hook",
+          "text": "This changed how I experience gaming forever"
+        },
+        {
+          "type": "hook",
+          "text": "The one feature that makes gaming way more social"
+        },
+        {
+          "type": "hook",
+          "text": "When cloud gaming actually works perfectly"
+        },
+        {
+          "type": "hook",
+          "text": "Stop grinding alone - here's the community you need"
+        },
+        {
+          "type": "emotion",
+          "text": "excitement"
+        },
+        {
+          "type": "emotion",
+          "text": "achievement"
+        },
+        {
+          "type": "emotion",
+          "text": "community-belonging"
+        },
+        {
+          "type": "emotion",
+          "text": "competitive-drive"
+        },
+        {
+          "type": "emotion",
+          "text": "escapism"
+        },
+        {
+          "type": "emotion",
+          "text": "social-connection"
+        },
+        {
+          "type": "viral_format",
+          "text": "gameplay highlight reel"
+        },
+        {
+          "type": "viral_format",
+          "text": "achievement unlock celebration"
+        },
+        {
+          "type": "viral_format",
+          "text": "setup tour/upgrade"
+        },
+        {
+          "type": "viral_format",
+          "text": "gaming session story"
+        },
+        {
+          "type": "viral_format",
+          "text": "community moment capture"
+        },
+        {
+          "type": "viral_format",
+          "text": "skill improvement journey"
+        },
+        {
+          "type": "viral_format",
+          "text": "platform comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "hidden feature reveal"
+        },
+        {
+          "type": "pain_point",
+          "text": "Games too expensive"
+        },
+        {
+          "type": "pain_point",
+          "text": "Toxic gaming communities"
+        },
+        {
+          "type": "pain_point",
+          "text": "Hardware limitations"
+        },
+        {
+          "type": "pain_point",
+          "text": "Skill plateau"
+        },
+        {
+          "type": "pain_point",
+          "text": "Gaming alone feels isolating"
+        },
+        {
+          "type": "pain_point",
+          "text": "Too many gaming platforms"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lag/performance issues"
+        },
+        {
+          "type": "pain_point",
+          "text": "Time commitment too high"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficult finding teammates"
+        },
+        {
+          "type": "pain_point",
+          "text": "Storage space limitations"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Unlimited game library access"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Cross-platform play"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Positive community moderation"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Cloud gaming (no hardware needed)"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Skill-based matchmaking"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Social features built-in"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Exclusive content/perks"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Play anywhere capability"
+        },
+        {
+          "type": "emotion",
+          "text": "disbelief"
+        },
+        {
+          "type": "viral_format",
+          "text": "before/after comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "time-waste revelation"
+        },
+        {
+          "type": "viral_format",
+          "text": "feature showcase progression"
+        },
+        {
+          "type": "viral_format",
+          "text": "productivity transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "automation wow-moment"
+        },
+        {
+          "type": "viral_format",
+          "text": "workflow optimization reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "manual vs automated contrast"
+        },
+        {
+          "type": "viral_format",
+          "text": "hidden tool discovery"
+        },
+        {
+          "type": "pain_point",
+          "text": "Spending hours on repetitive tasks"
+        },
+        {
+          "type": "pain_point",
+          "text": "Context switching between 10+ tools"
+        },
+        {
+          "type": "pain_point",
+          "text": "Missing deadlines due to disorganization"
+        },
+        {
+          "type": "pain_point",
+          "text": "Losing information across platforms"
+        },
+        {
+          "type": "pain_point",
+          "text": "Manual data entry errors"
+        },
+        {
+          "type": "pain_point",
+          "text": "Inefficient team collaboration"
+        },
+        {
+          "type": "pain_point",
+          "text": "No visibility into project progress"
+        },
+        {
+          "type": "pain_point",
+          "text": "Wasting time in unnecessary meetings"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficult to track billable hours"
+        },
+        {
+          "type": "pain_point",
+          "text": "Overwhelming to-do lists"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Save X hours per week"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Automate repetitive workflows"
+        },
+        {
+          "type": "value_proposition",
+          "text": "All-in-one solution (reduce tool sprawl)"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Real-time collaboration"
+        },
+        {
+          "type": "value_proposition",
+          "text": "AI-powered efficiency"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Seamless integrations"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Zero learning curve"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Instant ROI visibility"
+        }
+      ]
+    },
+    {
+      "industry": "E-commerce & Retail",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize you're paying way too much for [product]"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You discover the brand everyone's gatekeeping"
+        },
+        {
+          "type": "hook",
+          "text": "Stop scrolling - this is actually worth it"
+        },
+        {
+          "type": "hook",
+          "text": "This is why [product] keeps selling out"
+        },
+        {
+          "type": "hook",
+          "text": "Nobody talks about this brand and it's criminal"
+        },
+        {
+          "type": "hook",
+          "text": "When the quality actually matches the hype"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You find the perfect [product] after trying 10 others"
+        },
+        {
+          "type": "hook",
+          "text": "If you haven't tried this yet, you're missing out"
+        },
+        {
+          "type": "hook",
+          "text": "This changed my [routine/life] and I'm never going back"
+        },
+        {
+          "type": "hook",
+          "text": "The [product] that went viral for a reason"
+        },
+        {
+          "type": "hook",
+          "text": "When free shipping + this price = instant buy"
+        },
+        {
+          "type": "hook",
+          "text": "Stop buying from [competitor] until you see this"
+        },
+        {
+          "type": "emotion",
+          "text": "desire"
+        },
+        {
+          "type": "emotion",
+          "text": "FOMO"
+        },
+        {
+          "type": "emotion",
+          "text": "exclusivity"
+        },
+        {
+          "type": "emotion",
+          "text": "satisfaction"
+        },
+        {
+          "type": "emotion",
+          "text": "discovery-excitement"
+        },
+        {
+          "type": "emotion",
+          "text": "deal-hunting-thrill"
+        },
+        {
+          "type": "viral_format",
+          "text": "unboxing reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "before/after results"
+        },
+        {
+          "type": "viral_format",
+          "text": "haul + review"
+        },
+        {
+          "type": "viral_format",
+          "text": "hidden gem discovery"
+        },
+        {
+          "type": "viral_format",
+          "text": "comparison vs expensive alternative"
+        },
+        {
+          "type": "viral_format",
+          "text": "limited drop announcement"
+        },
+        {
+          "type": "viral_format",
+          "text": "transformation showcase"
+        },
+        {
+          "type": "viral_format",
+          "text": "social proof montage"
+        },
+        {
+          "type": "pain_point",
+          "text": "Overpaying for mediocre quality"
+        },
+        {
+          "type": "pain_point",
+          "text": "Products not matching descriptions"
+        },
+        {
+          "type": "pain_point",
+          "text": "Slow shipping times"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficult return processes"
+        },
+        {
+          "type": "pain_point",
+          "text": "Finding the right size/fit"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of authentic reviews"
+        },
+        {
+          "type": "pain_point",
+          "text": "Analysis paralysis from too many options"
+        },
+        {
+          "type": "pain_point",
+          "text": "Missing out on limited releases"
+        },
+        {
+          "type": "pain_point",
+          "text": "Hidden fees at checkout"
+        },
+        {
+          "type": "pain_point",
+          "text": "Sustainability concerns"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Premium quality at affordable price"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Sustainable/ethical production"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Fast + free shipping"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Easy returns/exchanges"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Exclusive/limited availability"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Verified customer reviews"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Perfect fit guarantee"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Lifetime warranty"
+        }
+      ]
+    },
+    {
+      "industry": "Health & Wellness",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "Nobody talks about this health hack and it changed everything"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You finally find what actually works"
+        },
+        {
+          "type": "hook",
+          "text": "When you realize you've been doing [health habit] wrong"
+        },
+        {
+          "type": "hook",
+          "text": "Stop wasting money on supplements that don't work"
+        },
+        {
+          "type": "hook",
+          "text": "This is what doctors don't tell you about [condition]"
+        },
+        {
+          "type": "hook",
+          "text": "The wellness routine that actually stuck"
+        },
+        {
+          "type": "hook",
+          "text": "When science backs up what you've been feeling"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Month 1 vs Month 3 of [wellness habit]"
+        },
+        {
+          "type": "hook",
+          "text": "If you struggle with [health issue], watch this"
+        },
+        {
+          "type": "hook",
+          "text": "The one change that transformed my health"
+        },
+        {
+          "type": "hook",
+          "text": "When you finally prioritize yourself and this happens"
+        },
+        {
+          "type": "hook",
+          "text": "Stop ignoring these signs your body is giving you"
+        },
+        {
+          "type": "emotion",
+          "text": "hope"
+        },
+        {
+          "type": "emotion",
+          "text": "transformation"
+        },
+        {
+          "type": "emotion",
+          "text": "empowerment"
+        },
+        {
+          "type": "emotion",
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "validation"
+        },
+        {
+          "type": "emotion",
+          "text": "motivation"
+        },
+        {
+          "type": "viral_format",
+          "text": "transformation journey"
+        },
+        {
+          "type": "viral_format",
+          "text": "myth-busting"
+        },
+        {
+          "type": "viral_format",
+          "text": "science-backed explanation"
+        },
+        {
+          "type": "viral_format",
+          "text": "daily routine reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "before/after results"
+        },
+        {
+          "type": "viral_format",
+          "text": "symptom relief story"
+        },
+        {
+          "type": "viral_format",
+          "text": "expert insight share"
+        },
+        {
+          "type": "viral_format",
+          "text": "community support moment"
+        },
+        {
+          "type": "pain_point",
+          "text": "Tried everything without results"
+        },
+        {
+          "type": "pain_point",
+          "text": "Conflicting health advice"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of energy/motivation"
+        },
+        {
+          "type": "pain_point",
+          "text": "Chronic pain or discomfort"
+        },
+        {
+          "type": "pain_point",
+          "text": "Poor sleep quality"
+        },
+        {
+          "type": "pain_point",
+          "text": "Stress and burnout"
+        },
+        {
+          "type": "pain_point",
+          "text": "Weight management struggles"
+        },
+        {
+          "type": "pain_point",
+          "text": "Mental health challenges"
+        },
+        {
+          "type": "pain_point",
+          "text": "Expensive treatments with no improvement"
+        },
+        {
+          "type": "pain_point",
+          "text": "Feeling unheard by healthcare providers"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Science-backed results"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Natural/holistic approach"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Personalized solutions"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Fast symptom relief"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Long-term sustainable change"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Affordable alternative to medication"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Community support included"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Expert-guided program"
+        }
+      ]
+    },
+    {
+      "industry": "Education & Online Courses",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize traditional education is a scam"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You learn more in 30 days than 4 years of college"
+        },
+        {
+          "type": "hook",
+          "text": "This skill changed my career and nobody teaches it in school"
+        },
+        {
+          "type": "hook",
+          "text": "Stop wasting money on degrees - learn this instead"
+        },
+        {
+          "type": "hook",
+          "text": "The course that actually got me hired"
+        },
+        {
+          "type": "hook",
+          "text": "When the ROI hits different than student loans"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Self-taught vs formally educated in [field]"
+        },
+        {
+          "type": "hook",
+          "text": "If you want to [career goal], this is your shortcut"
+        },
+        {
+          "type": "hook",
+          "text": "This is how I learned [skill] in record time"
+        },
+        {
+          "type": "hook",
+          "text": "The education system doesn't want you to know this"
+        },
+        {
+          "type": "hook",
+          "text": "When you go from beginner to pro in weeks, not years"
+        },
+        {
+          "type": "hook",
+          "text": "Stop gatekeeping - this course is actually worth it"
+        },
+        {
+          "type": "emotion",
+          "text": "empowerment"
+        },
+        {
+          "type": "emotion",
+          "text": "FOMO"
+        },
+        {
+          "type": "emotion",
+          "text": "career-ambition"
+        },
+        {
+          "type": "emotion",
+          "text": "frustration-with-system"
+        },
+        {
+          "type": "emotion",
+          "text": "achievement"
+        },
+        {
+          "type": "emotion",
+          "text": "liberation"
+        },
+        {
+          "type": "viral_format",
+          "text": "career transformation story"
+        },
+        {
+          "type": "viral_format",
+          "text": "skill showcase progression"
+        },
+        {
+          "type": "viral_format",
+          "text": "traditional vs alternative path"
+        },
+        {
+          "type": "viral_format",
+          "text": "income increase reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "portfolio/results demonstration"
+        },
+        {
+          "type": "viral_format",
+          "text": "learning journey time-lapse"
+        },
+        {
+          "type": "viral_format",
+          "text": "job offer announcement"
+        },
+        {
+          "type": "viral_format",
+          "text": "education system critique"
+        },
+        {
+          "type": "pain_point",
+          "text": "Expensive tuition with no job guarantee"
+        },
+        {
+          "type": "pain_point",
+          "text": "Outdated curriculum"
+        },
+        {
+          "type": "pain_point",
+          "text": "Lack of practical skills"
+        },
+        {
+          "type": "pain_point",
+          "text": "No portfolio to show employers"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficulty switching careers"
+        },
+        {
+          "type": "pain_point",
+          "text": "Self-doubt about ability to learn"
+        },
+        {
+          "type": "pain_point",
+          "text": "Information overload (too many options)"
+        },
+        {
+          "type": "pain_point",
+          "text": "No mentorship or support"
+        },
+        {
+          "type": "pain_point",
+          "text": "Can't afford to quit job for school"
+        },
+        {
+          "type": "pain_point",
+          "text": "Imposter syndrome"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Learn job-ready skills fast"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Fraction of the cost of degree"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Portfolio projects included"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Industry expert instructors"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Lifetime access + updates"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Money-back guarantee"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Community + networking"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Career placement support"
+        }
+      ]
+    },
+    {
+      "industry": "Finance & Fintech",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize you've been losing money this whole time"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You check your investments after using [tool]"
+        },
+        {
+          "type": "hook",
+          "text": "Stop letting banks profit off your ignorance"
+        },
+        {
+          "type": "hook",
+          "text": "This is how rich people actually manage money"
+        },
+        {
+          "type": "hook",
+          "text": "The finance hack nobody teaches in school"
+        },
+        {
+          "type": "hook",
+          "text": "When you automate your savings and this happens"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your bank balance before vs after [financial tool]"
+        },
+        {
+          "type": "hook",
+          "text": "If you're not doing this with your money, you're losing"
+        },
+        {
+          "type": "hook",
+          "text": "This changed my relationship with money forever"
+        },
+        {
+          "type": "hook",
+          "text": "The one financial decision that changed everything"
+        },
+        {
+          "type": "hook",
+          "text": "When you realize financial freedom is actually possible"
+        },
+        {
+          "type": "hook",
+          "text": "Stop working for money - make money work for you"
+        },
+        {
+          "type": "emotion",
+          "text": "security"
+        },
+        {
+          "type": "emotion",
+          "text": "FOMO"
+        },
+        {
+          "type": "emotion",
+          "text": "empowerment"
+        },
+        {
+          "type": "emotion",
+          "text": "anxiety-relief"
+        },
+        {
+          "type": "emotion",
+          "text": "aspirational"
+        },
+        {
+          "type": "emotion",
+          "text": "regret-avoidance"
+        },
+        {
+          "type": "viral_format",
+          "text": "wealth building journey"
+        },
+        {
+          "type": "viral_format",
+          "text": "compound interest visualization"
+        },
+        {
+          "type": "viral_format",
+          "text": "budget transformation"
+        },
+        {
+          "type": "viral_format",
+          "text": "investment returns reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "debt payoff story"
+        },
+        {
+          "type": "viral_format",
+          "text": "financial independence timeline"
+        },
+        {
+          "type": "viral_format",
+          "text": "money mistake confession + fix"
+        },
+        {
+          "type": "viral_format",
+          "text": "passive income showcase"
+        },
+        {
+          "type": "pain_point",
+          "text": "Living paycheck to paycheck"
+        },
+        {
+          "type": "pain_point",
+          "text": "Overwhelming debt"
+        },
+        {
+          "type": "pain_point",
+          "text": "No emergency fund"
+        },
+        {
+          "type": "pain_point",
+          "text": "Fear of investing"
+        },
+        {
+          "type": "pain_point",
+          "text": "High bank fees"
+        },
+        {
+          "type": "pain_point",
+          "text": "Poor credit score"
+        },
+        {
+          "type": "pain_point",
+          "text": "No retirement savings"
+        },
+        {
+          "type": "pain_point",
+          "text": "Impulse spending habits"
+        },
+        {
+          "type": "pain_point",
+          "text": "Confusion about taxes"
+        },
+        {
+          "type": "pain_point",
+          "text": "Financial illiteracy"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Automated savings/investing"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Zero fees/commissions"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Higher interest rates"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Easy-to-understand insights"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Real-time spending tracking"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Personalized financial advice"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Credit score improvement"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Tax optimization built-in"
+        }
+      ]
+    },
+    {
+      "industry": "Marketing & Social Media Tools",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you realize you've been doing social media marketing wrong"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your engagement after using [tool] for one week"
+        },
+        {
+          "type": "hook",
+          "text": "Stop posting without a strategy - here's what works"
+        },
+        {
+          "type": "hook",
+          "text": "This is how creators with 100K+ followers manage content"
+        },
+        {
+          "type": "hook",
+          "text": "The social media tool every marketer is secretly using"
+        },
+        {
+          "type": "hook",
+          "text": "When automation saves you 15 hours/week of content work"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your analytics before vs after [tool]"
+        },
+        {
+          "type": "hook",
+          "text": "If you're manually scheduling posts, you're wasting time"
+        },
+        {
+          "type": "hook",
+          "text": "This changed my content strategy overnight"
+        },
+        {
+          "type": "hook",
+          "text": "The one tool that 10x'd my social media growth"
+        },
+        {
+          "type": "hook",
+          "text": "When your content finally goes viral and here's why"
+        },
+        {
+          "type": "hook",
+          "text": "Stop guessing what works - data doesn't lie"
+        },
+        {
+          "type": "emotion",
+          "text": "growth-excitement"
+        },
+        {
+          "type": "emotion",
+          "text": "FOMO"
+        },
+        {
+          "type": "emotion",
+          "text": "validation"
+        },
+        {
+          "type": "emotion",
+          "text": "relief"
+        },
+        {
+          "type": "emotion",
+          "text": "competitive-advantage"
+        },
+        {
+          "type": "emotion",
+          "text": "creator-pride"
+        },
+        {
+          "type": "viral_format",
+          "text": "growth chart reveal"
+        },
+        {
+          "type": "viral_format",
+          "text": "content batch workflow"
+        },
+        {
+          "type": "viral_format",
+          "text": "engagement spike story"
+        },
+        {
+          "type": "viral_format",
+          "text": "before/after metrics"
+        },
+        {
+          "type": "viral_format",
+          "text": "viral post breakdown"
+        },
+        {
+          "type": "viral_format",
+          "text": "automation showcase"
+        },
+        {
+          "type": "viral_format",
+          "text": "competitor comparison"
+        },
+        {
+          "type": "viral_format",
+          "text": "ROI demonstration"
+        },
+        {
+          "type": "pain_point",
+          "text": "Inconsistent posting schedule"
+        },
+        {
+          "type": "pain_point",
+          "text": "Low engagement rates"
+        },
+        {
+          "type": "pain_point",
+          "text": "No content strategy"
+        },
+        {
+          "type": "pain_point",
+          "text": "Spending too much time on social media"
+        },
+        {
+          "type": "pain_point",
+          "text": "Difficulty creating content at scale"
+        },
+        {
+          "type": "pain_point",
+          "text": "Can't track ROI"
+        },
+        {
+          "type": "pain_point",
+          "text": "Managing multiple platforms is overwhelming"
+        },
+        {
+          "type": "pain_point",
+          "text": "Content ideas running dry"
+        },
+        {
+          "type": "pain_point",
+          "text": "Algorithm changes killing reach"
+        },
+        {
+          "type": "pain_point",
+          "text": "No team collaboration tools"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Schedule weeks of content in minutes"
+        },
+        {
+          "type": "value_proposition",
+          "text": "AI-powered content suggestions"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Multi-platform management"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Deep analytics + insights"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Team collaboration features"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Automated posting optimization"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Content calendar visualization"
+        },
+        {
+          "type": "value_proposition",
+          "text": "Competitor tracking"
+        }
+      ]
+    },
+    {
+      "industry": "Real Estate",
+      "patterns": [
+        {
+          "type": "hook",
+          "text": "When you find out what your rent could've bought you"
+        },
+        {
+          "type": "hook",
+          "text": "POV: You discover the property everyone's sleeping on"
+        },
+        {
+          "type": "hook",
+          "text": "Stop renting - here's how to actually afford a home"
+        },
+        {
+          "type": "hook",
+          "text": "This is what real estate agents don't tell you"
+        },
+        {
+          "type": "hook",
+          "text": "The property search tool that changed house hunting"
+        },
+        {
+          "type": "hook",
+          "text": "When you see the neighborhood before vs after investing"
+        },
+        {
+          "type": "hook",
+          "text": "POV: Your investment portfolio after adding real estate"
+        },
+        {
+          "type": "hook",
+          "text": "If you're not doing this, you're overpaying for property"
+        },
+        {
+          "type": "hook",
+          "text": "This changed my approach to homeownership forever"
+        },
+        {
+          "type": "hook",
+          "text": "The one real estate move that built generational wealth"
+        },
+        {
+          "type": "hook",
+          "text": "When location data reveals the next hot neighborhood"
+        },
+        {
+          "type": "hook",
+          "text": "Stop making emotional decisions - here's what data says"
+        },
+        {
+          "type": "emotion",
+          "text": "aspiration"
+        },
+        {
+          "type": "emotion",
+          "text": "FOMO"
+        },
+        {
+          "type": "emotion",
+          "text": "security"
+        },
+        {
+          "type": "emotion",
+          "text": "empowerment"
+        }
+      ]
+    }
+  ]
+}

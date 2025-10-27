@@ -10,13 +10,6 @@ const app = express();
 app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3000;
 
-// Sjekk Node.js versjon - fetch er innebygd fra v18+
-if (!global.fetch) {
-  console.log('⚠️  Installing node-fetch for older Node.js...');
-  const fetch = require('node-fetch');
-  global.fetch = fetch;
-}
-
 app.use(helmet());
 
 app.use(cors({
@@ -56,7 +49,55 @@ app.get('/health', (req, res) => {
 
 app.use('/api/generate', generateRoute);
 
-// 🎯 GIF DOWNLOAD ENDPOINT - MÅ VÆRE FØR 404 HANDLER
+app.use((req, res) => {
+  res.status(404).json({
+    success: false,
+    error: 'Endpoint not found',
+    path: req.path
+  });
+});
+
+app.use((err, req, res, next) => {
+  console.error('[ERROR]', err);
+  
+  const errorMessage = process.env.NODE_ENV === 'production'
+    ? 'Internal server error'
+    : err.message;
+  
+  res.status(err.status || 500).json({
+    success: false,
+    error: errorMessage
+  });
+});
+const server = app.listen(PORT, () => {
+  console.log('Server running on port ' + PORT);
+  console.log('Health check: http://localhost:' + PORT + '/health');
+});
+
+process.on('SIGTERM', () => {
+  console.log('SIGTERM received, shutting down gracefully');
+  if (server) {
+    server.close(() => {
+      console.log('Server closed');
+      process.exit(0);
+    });
+  } else {
+    process.exit(0);
+  }
+});
+
+process.on('SIGTERM', () => {
+  console.log('SIGTERM received, shutting down gracefully');
+  if (server) {
+    server.close(() => {
+      console.log('Server closed');
+      process.exit(0);
+    });
+  } else {
+    process.exit(0);
+  }
+});
+// GIF Download Endpoint - Legg til rett før app.listen()
 app.get('/api/download-gif', async (req, res) => {
   try {
     const { gifUrl, filename } = req.query;
@@ -105,59 +146,6 @@ app.get('/api/download-gif', async (req, res) => {
       error: 'Failed to download GIF',
       details: error.message 
     });
-  }
-});
-
-// 404 handler - MÅ VÆRE ETTER ALLE ROUTES
-app.use((req, res) => {
-  res.status(404).json({
-    success: false,
-    error: 'Endpoint not found',
-    path: req.path
-  });
-});
-
-// Error handler - MÅ VÆRE SIST
-app.use((err, req, res, next) => {
-  console.error('[ERROR]', err);
-  
-  const errorMessage = process.env.NODE_ENV === 'production'
-    ? 'Internal server error'
-    : err.message;
-  
-  res.status(err.status || 500).json({
-    success: false,
-    error: errorMessage
-  });
-});
-
-const server = app.listen(PORT, () => {
-  console.log('Server running on port ' + PORT);
-  console.log('Health check: http://localhost:' + PORT + '/health');
-  console.log('GIF download endpoint: http://localhost:' + PORT + '/api/download-gif');
-});
-
-process.on('SIGTERM', () => {
-  console.log('SIGTERM received, shutting down gracefully');
-  if (server) {
-    server.close(() => {
-      console.log('Server closed');
-      process.exit(0);
-    });
-  } else {
-    process.exit(0);
-  }
-});
-
-process.on('SIGINT', () => {
-  console.log('SIGINT received, shutting down gracefully');
-  if (server) {
-    server.close(() => {
-      console.log('Server closed');
-      process.exit(0);
-    });
-  } else {
-    process.exit(0);
   }
 });
 
