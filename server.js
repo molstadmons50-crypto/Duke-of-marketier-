@@ -3,12 +3,30 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
+const pool = require('./db/pool');
+const fs = require('fs');
+const path = require('path');
 
 const generateRoute = require('./routes/generate');
 
 const app = express();
 app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3000;
+
+// Database init function
+async function initDatabase() {
+  try {
+    console.log('🔧 Checking database tables...');
+    const schema = fs.readFileSync(path.join(__dirname, 'db', 'schema.sql'), 'utf8');
+    await pool.query(schema);
+    console.log('✅ Database tables ready!');
+  } catch (error) {
+    console.error('❌ Database init failed:', error.message);
+  }
+}
+
+// Run init on startup
+initDatabase();
 
 // Sjekk Node.js versjon - fetch er innebygd fra v18+
 if (!global.fetch) {
@@ -160,5 +178,3 @@ process.on('SIGINT', () => {
     process.exit(0);
   }
 });
-
-
