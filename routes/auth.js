@@ -4,148 +4,194 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const validator = require('validator');
 const pool = require('../db/pool');
-const { authenticateToken } = require('../middleware/auth');
+const { requireAuth } = require('../middleware/auth');
 
-// REGISTER - Lag ny bruker
+/**
+ * POST /api/auth/register
+ * Registrer ny bruker (gratis)
+ */
 router.post('/register', async (req, res) => {
   try {
     const { email, password } = req.body;
-
-    // Sjekk at vi har email og passord
+    
+    // Validering
     if (!email || !password) {
-      return res.status(400).json({ error: 'Email and password required' });
+      return res.status(400).json({ 
+        error: 'Email and password required' 
+      });
     }
-
-    // Sjekk at email er riktig format
+    
     if (!validator.isEmail(email)) {
-      return res.status(400).json({ error: 'Invalid email format' });
+      return res.status(400).json({ 
+        error: 'Invalid email format' 
+      });
     }
-
-    // Sjekk at passord er langt nok
+    
     if (password.length < 8) {
-      return res.status(400).json({ error: 'Password must be at least 8 characters' });
+      return res.status(400).json({ 
+        error: 'Password must be at least 8 characters' 
+      });
     }
-
+    
     // Sjekk om email allerede finnes
     const existing = await pool.query(
       'SELECT id FROM users WHERE email = $1',
       [email.toLowerCase()]
     );
-
+    
     if (existing.rows.length > 0) {
-      return res.status(409).json({ error: 'Email already registered' });
+      return res.status(409).json({ 
+        error: 'Email already registered',
+        message: 'Please log in instead'
+      });
     }
-
-    // Krypter passord (så vi ikke lagrer det i klartekst)
+    
+    // Hash passord (12 rounds = veldig sikkert)
     const passwordHash = await bcrypt.hash(password, 12);
-
-    // Lagre bruker i database
+    
+    // Lagre bruker
     const result = await pool.query(
       `INSERT INTO users (email, password_hash) 
        VALUES ($1, $2) 
-       RETURNING id, email, subscription_tier, created_at`,
+       RETURNING id, email, created_at`,
       [email.toLowerCase(), passwordHash]
     );
-
+    
     const user = result.rows[0];
-
-    // Lag login-token
+    
+    // Generer JWT token (expires om 30 dager)
     const token = jwt.sign(
       { userId: user.id, email: user.email },
       process.env.JWT_SECRET,
-      { expiresIn: '7d' }
+      { expiresIn: '30d' }
     );
-
+    
     console.log(`✅ New user registered: ${email}`);
-
+    
     res.status(201).json({
       success: true,
-      token,
+      message: 'Account created successfully!',
+      token: token,
       user: {
         id: user.id,
         email: user.email,
-        subscriptionTier: user.subscription_tier
+        tier: 'registered'
       }
     });
-
+    
   } catch (error) {
     console.error('Registration error:', error);
-    res.status(500).json({ error: 'Registration failed' });
+    res.status(500).json({ 
+      error: 'Registration failed',
+      message: 'Please try again'
+    });
   }
 });
 
-// LOGIN - Logg inn eksisterende bruker
+/**
+ * POST /api/auth/login
+ * Logg inn eksisterende bruker
+ */
 router.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body;
-
+    
     if (!email || !password) {
-      return res.status(400).json({ error: 'Email and password required' });
+      return res.status(400).json({ 
+        error: 'Email and password required' 
+      });
     }
-
+    
     // Finn bruker
     const result = await pool.query(
-      `SELECT id, email, password_hash, subscription_status, subscription_tier, current_period_end 
-       FROM users WHERE email = $1`,
+      `SELECT id, email, password_hash, created_at FROM users 
+       WHERE email = $1`,
       [email.toLowerCase()]
     );
-
+    
     if (result.rows.length === 0) {
-      return res.status(401).json({ error: 'Invalid email or password' });
+      return res.status(401).json({ 
+        error: 'Invalid email or password' 
+      });
     }
-
+    
     const user = result.rows[0];
-
+    
     // Sjekk passord
     const isValid = await bcrypt.compare(password, user.password_hash);
-
+    
     if (!isValid) {
-      return res.status(401).json({ error: 'Invalid email or password' });
+      return res.status(401).json({ 
+        error: 'Invalid email or password' 
+      });
     }
-
-    // Lag login-token
+    
+    // Generer JWT token
     const token = jwt.sign(
       { userId: user.id, email: user.email },
       process.env.JWT_SECRET,
-      { expiresIn: '7d' }
+      { expiresIn: '30d' }
     );
-
+    
     console.log(`✅ User logged in: ${email}`);
-
+    
     res.json({
       success: true,
-      token,
+      message: 'Logged in successfully!',
+      token: token,
       user: {
         id: user.id,
         email: user.email,
-        subscriptionStatus: user.subscription_status,
-        subscriptionTier: user.subscription_tier,
-        currentPeriodEnd: user.current_period_end
+        tier: 'registered'
       }
     });
-
+    
   } catch (error) {
     console.error('Login error:', error);
-    res.status(500).json({ error: 'Login failed' });
+    res.status(500).json({ 
+      error: 'Login failed',
+      message: 'Please try again'
+    });
   }
 });
 
-// GET ME - Hent innlogget brukers info
-router.get('/me', authenticateToken, async (req, res) => {
+/**
+ * GET /api/auth/me
+ * Hent innlogget brukers info + quota status
+ */
+router.get('/me', requireAuth, async (req, res) => {
   try {
+    const today = new Date().toISOString().split('T')[0];
+    
+    // Hent daily usage
+    const usage = await pool.query(
+      `SELECT COUNT(*) as count FROM usage_logs 
+       WHERE user_id = $1 AND reset_date = $2`,
+      [req.user.id, today]
+    );
+    
+    const used = parseInt(usage.rows[0].count);
+    const limit = 3;
+    
     res.json({
       success: true,
       user: {
         id: req.user.id,
         email: req.user.email,
-        subscriptionStatus: req.user.subscription_status,
-        subscriptionTier: req.user.subscription_tier,
-        currentPeriodEnd: req.user.current_period_end
+        tier: 'registered'
+      },
+      quota: {
+        used: used,
+        limit: limit,
+        remaining: limit - used
       }
     });
+    
   } catch (error) {
     console.error('Get user error:', error);
-    res.status(500).json({ error: 'Failed to get user info' });
+    res.status(500).json({ 
+      error: 'Failed to get user info' 
+    });
   }
 });
 

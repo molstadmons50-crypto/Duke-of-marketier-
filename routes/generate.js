@@ -4,6 +4,8 @@ const { generateViralText, selectBestTemplate } = require('../services/openai');
 const { getGifBySearchTerm, getGifById } = require('../services/giphy');
 const { getViralPatterns, getTemplates } = require('../services/viralData');
 const { successResponse, errorResponse } = require('../utils/responseFormatter');
+const { optionalAuth } = require('../middleware/auth');
+const { checkQuota, logUsage } = require('../middleware/quota');
 
 /**
  * POST /api/generate
@@ -14,7 +16,7 @@ const { successResponse, errorResponse } = require('../utils/responseFormatter')
  *   description: string
  * }
  */
-router.post('/', async (req, res) => {
+router.post('/', optionalAuth, checkQuota, async (req, res) => {
   console.log('🚨 GENERATE ENDPOINT HIT');
   const startTime = Date.now();
   console.log('\n' + '='.repeat(60));
@@ -76,10 +78,10 @@ router.post('/', async (req, res) => {
     console.log(`   ✓ Loaded ${viralPatterns.length} viral patterns`);
     console.log(`   ✓ Loaded ${templates.length} GIF templates`);
 
-    // 3. Generate viral text with OpenAI
+   // 3. Generate viral text with OpenAI
     console.log('\n🤖 Generating viral text with OpenAI...');
-    const viralText = await generateViralText(industry, description, viralPatterns);
-    console.log(`   ✓ Generated text: "${viralText}"`);
+    const isPremium = !!req.user; // true hvis innlogget
+    const viralText = await generateViralText(industry, description, viralPatterns, isPremium);
 
     // 4. Select best matching GIF template
     console.log('\n🎯 Selecting best GIF template...');
@@ -119,6 +121,14 @@ router.post('/', async (req, res) => {
     console.log('\n' + '='.repeat(60));
     console.log(`✅ GENERATION SUCCESSFUL (${duration}ms)`);
     console.log('='.repeat(60) + '\n');
+    
+    // Log usage
+    await logUsage(
+      req.user?.id, 
+      req.anonUserId, 
+      req.ip || req.headers['x-forwarded-for'], 
+      industry
+    );
 
     return res.status(200).json(
       successResponse({
@@ -133,7 +143,9 @@ router.post('/', async (req, res) => {
         metadata: {
           industry,
           processingTime: duration,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
+          tier: req.user ? 'registered' : 'anonymous',
+          quota: req.quotaInfo
         }
       })
     );

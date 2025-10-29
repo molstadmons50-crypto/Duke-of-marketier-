@@ -3,11 +3,13 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
+const cookieParser = require('cookie-parser');
 const pool = require('./db/pool');
 const fs = require('fs');
 const path = require('path');
 
 const generateRoute = require('./routes/generate');
+const authRoute = require('./routes/auth');
 
 const app = express();
 app.set('trust proxy', 1);
@@ -59,6 +61,7 @@ app.options('*', cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
 
 const limiter = rateLimit({
   windowMs: parseInt(process.env.RATE_LIMIT_WINDOW_MS) || 15 * 60 * 1000,
@@ -84,6 +87,7 @@ app.get('/health', (req, res) => {
 });
 
 app.use('/api/generate', generateRoute);
+app.use('/api/auth', authRoute);
 
 // 🎯 GIF DOWNLOAD ENDPOINT - MÅ VÆRE FØR 404 HANDLER
 app.get('/api/download-gif', async (req, res) => {
