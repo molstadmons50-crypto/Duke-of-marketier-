@@ -119,9 +119,68 @@ async function selectBestTemplate(viralText, templates, description) {
     return templates[randomIndex];
   }
 }
+/**
+ * Generate SHORT meme caption for GIF overlay
+ * @param {string} industry - The target industry
+ * @param {string} description - Product/service description
+ * @param {Object} template - Selected GIF template
+ * @returns {Promise<string>} Short meme caption (1-2 lines)
+ */
+async function generateMemeCaption(industry, description, template) {
+  try {
+    console.log(`💬 Generating meme caption for template: ${template.name}`);
+
+    const systemPrompt = `You are a viral meme creator. Generate SHORT, punchy, relatable captions for memes.
+
+Rules:
+- Maximum 10-15 words
+- Use "POV:", "When...", "Me:", or "That feeling when..." format
+- Match the emotion: ${template.emotion}
+- Make it funny and relatable
+- Use English only
+- No hashtags or emojis`;
+
+    const userPrompt = `Product: ${description}
+Industry: ${industry}
+Template emotion: ${template.emotion}
+Template name: ${template.name}
+
+Generate a SHORT meme caption (max 15 words) that fits this GIF and relates to the product.
+
+Examples:
+- "POV: You after using our app for the first time"
+- "When you realize you've been doing it wrong all along"
+- "Me: Finally trying the product everyone's talking about"
+
+Caption:`;
+
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
+      messages: [
+        { role: 'system', content: systemPrompt },
+        { role: 'user', content: userPrompt },
+      ],
+      temperature: 0.9, // Higher for creativity
+      max_tokens: 50,   // Keep it SHORT
+    });
+
+    const caption = response.choices[0].message.content.trim()
+      .replace(/^["']|["']$/g, '') // Remove quotes if AI adds them
+      .replace(/\n/g, ' '); // Remove line breaks
+
+    console.log(`✅ Meme caption: "${caption}"`);
+
+    return caption;
+  } catch (error) {
+    console.error('❌ Meme caption generation failed:', error.message);
+    // Fallback caption
+    return `POV: Discovering ${description.split(' ').slice(0, 3).join(' ')}`;
+  }
+}
 
 module.exports = {
   generateViralText,
   selectBestTemplate,
+  generateMemeCaption,  // ← NY
 };
 

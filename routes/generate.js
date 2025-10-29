@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { generateViralText, selectBestTemplate } = require('../services/openai');
+const { generateViralText, selectBestTemplate, generateMemeCaption } = require('../services/openai');
 const { getGifBySearchTerm, getGifById } = require('../services/giphy');
 const { getViralPatterns, getTemplates } = require('../services/viralData');
 const { successResponse, errorResponse } = require('../utils/responseFormatter');
@@ -86,6 +86,9 @@ router.post('/', optionalAuth, checkQuota, async (req, res) => {
     // 4. Select best matching GIF template
     console.log('\n🎯 Selecting best GIF template...');
     const selectedTemplate = await selectBestTemplate(viralText, templates, description);
+    console.log('\n💬 Generating meme caption...');
+    const memeCaption = await generateMemeCaption(industry, description, selectedTemplate);
+    console.log(`   ✓ Caption: "${memeCaption}"`);
     console.log(`   ✓ Selected template: ${selectedTemplate.name}`);
     console.log(`   ✓ Emotion: ${selectedTemplate.emotion}`);
     console.log(`   ✓ Viral score: ${selectedTemplate.viral_score}/10`);
@@ -133,6 +136,7 @@ router.post('/', optionalAuth, checkQuota, async (req, res) => {
     return res.status(200).json(
       successResponse({
         viralText,
+        memeCaption,
         gifUrl,
         template: {
           id: selectedTemplate.id,
