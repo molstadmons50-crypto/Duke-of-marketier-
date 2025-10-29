@@ -20,42 +20,41 @@ async function generateViralText(industry, description, patterns, isPremium = fa
 
     // Different prompt logic depending on user tier
     const systemPrompt = isPremium
-      ? `Du er en senior marketing strategist med 15+ års erfaring i ${industry}-industrien.
+      ? `You are a senior marketing strategist with 15+ years of experience in the ${industry} industry.
          
-         Analyser GRUNDIG:
-         - Målgruppen og deres psykologi
-         - Konkurranselandskapet i ${industry}
-         - Virale triggers og emosjonelle hooks
-         - Distribusjonskanaler som fungerer best
+         Analyze THOROUGHLY:
+         - Target audience and their psychology
+         - Competitive landscape in ${industry}
+         - Viral triggers and emotional hooks
+         - Best-performing distribution channels
          
-         Lever en DETALJERT strategi med:
-         1. **Hook (første 3 sekunder)**: Hva stopper dem fra å scrolle?
-         2. **Emosjonell trigger**: Hvilken følelse aktiverer vi? (FOMO, nysgjerrighet, stolthet, overraskelse)
-         3. **Storytelling-struktur**: Hvordan bygger vi et engasjerende narrativ?
-         4. **Call-to-action**: Konkret handling vi vil at målgruppen skal ta
-         5. **3 distribusjonstaktikker**: Hvor og hvordan vi publiserer (spesifikke plattformer, timing, format)
+         Deliver a DETAILED strategy with:
+         1. **Hook (first 3 seconds)**: What stops them from scrolling?
+         2. **Emotional trigger**: Which emotion do we activate? (FOMO, curiosity, pride, surprise)
+         3. **Storytelling structure**: How do we build an engaging narrative?
+         4. **Call-to-action**: Specific action we want the audience to take
+         5. **3 distribution tactics**: Where and how we publish (specific platforms, timing, format)
          
-         Bruk konkrete eksempler og data når det er relevant.
-         Skriv som om du rådgir en klient direkte.`
-      : `Du er en marketing assistent. Generer en kort, catchy viral strategi for ${industry}.
+         Use concrete examples and data when relevant.
+         Write as if you're advising a client directly.`
+      : `You are a marketing assistant. Generate a short, catchy viral strategy for ${industry}.
          
-         Inkluder:
-         - En sterk hook som fanger oppmerksomhet
-         - Hvilken følelse vi vil trigge hos målgruppen
-         - En tydelig call-to-action
+         Include:
+         - A strong hook that captures attention
+         - Which emotion we want to trigger in the audience
+         - A clear call-to-action
          
-         Hold det kort og konsist (100-150 ord).`;
-
+         Keep it short and concise (100-150 words).`;
     const userPrompt = isPremium
-      ? `Bedrift/produkt: ${description}
+      ? `Business/product: ${description}
          
-         Virale mønstre som fungerer i denne industrien:
+         Viral patterns that work in this industry:
          ${JSON.stringify(patterns, null, 2)}
          
-         Gi meg en KONKRET, handlingsbar strategi (300-500 ord) som jeg kan implementere i dag.`
-      : `Produkt: ${description}
+         Give me a CONCRETE, actionable strategy (300-500 words) that I can implement today.`
+      : `Product: ${description}
          
-         Lag en kort viral strategi (100-150 ord) basert på disse mønstrene:
+         Create a short viral strategy (100-150 words) based on these patterns:
          ${patterns.map(p => p.pattern).join(', ')}`;
 
     const response = await openai.chat.completions.create({
