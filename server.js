@@ -17,13 +17,24 @@ const PORT = process.env.PORT || 3000;
 async function initDatabase() {
   try {
     console.log('🔧 Checking database tables...');
+    
+    // Kjør hovedskjema
     const schema = fs.readFileSync(path.join(__dirname, 'db', 'schema.sql'), 'utf8');
     await pool.query(schema);
     console.log('✅ Database tables ready!');
+    
+    // Kjør anon-tracking migration
+    console.log('🔧 Running anon-tracking migration...');
+    const migration = fs.readFileSync(path.join(__dirname, 'db', 'add-anon-tracking.sql'), 'utf8');
+    await pool.query(migration);
+    console.log('✅ Anon-tracking migration done!');
+    
   } catch (error) {
     console.error('❌ Database init failed:', error.message);
   }
 }
+
+initDatabase();
 
 // Run init on startup
 initDatabase();
