@@ -47,6 +47,96 @@
           "emotion": "momentum growth",
           "use_case": "Trending topics or growth stats",
           "viral_score": 7
+        },
+        {
+          "id": "computer-smashing",
+          "name": "Frustrated Computer Smashing",
+          "giphyId": "14ut8PhnIwzros",
+          "searchTerm": "computer smashing frustrated",
+          "emotion": "frustration relief",
+          "use_case": "Before using your tool (problem state)",
+          "viral_score": 9
+        },
+        {
+          "id": "celebration-dance",
+          "name": "Victory Dance Celebration",
+          "giphyId": "l0MYt5jPR6QX5pnqM",
+          "searchTerm": "celebration dance victory",
+          "emotion": "success joy",
+          "use_case": "After solving problems with your tool",
+          "viral_score": 8
+        },
+        {
+          "id": "lightbulb-idea",
+          "name": "Lightbulb Idea Moment",
+          "giphyId": "3o7btPCcdNniyf0ArS",
+          "searchTerm": "lightbulb idea",
+          "emotion": "eureka moment",
+          "use_case": "Feature discovery or aha moments",
+          "viral_score": 8
+        },
+        {
+          "id": "rocket-launch",
+          "name": "Rocket Taking Off",
+          "giphyId": "3ohs4rclkSSrNGSlFK",
+          "searchTerm": "rocket launch",
+          "emotion": "explosive growth",
+          "use_case": "Launch announcements or rapid scaling",
+          "viral_score": 9
+        },
+        {
+          "id": "teamwork-high-five",
+          "name": "Team High Five",
+          "giphyId": "g9582DNuQppxC",
+          "searchTerm": "high five teamwork",
+          "emotion": "collaboration",
+          "use_case": "Team collaboration features",
+          "viral_score": 7
+        },
+        {
+          "id": "coffee-coding",
+          "name": "Coding with Coffee",
+          "giphyId": "ZVik7pBtu9dNS",
+          "searchTerm": "coding coffee",
+          "emotion": "developer life",
+          "use_case": "Developer tools or productivity",
+          "viral_score": 7
+        },
+        {
+          "id": "speed-typing",
+          "name": "Super Fast Typing",
+          "giphyId": "LmNwrBhejkK9EFP504",
+          "searchTerm": "typing fast keyboard",
+          "emotion": "efficiency",
+          "use_case": "Speed and productivity features",
+          "viral_score": 8
+        },
+        {
+          "id": "automation-robot",
+          "name": "Automation Robot Working",
+          "giphyId": "3oKIPnAiaMCws8nOsE",
+          "searchTerm": "robot automation",
+          "emotion": "automation power",
+          "use_case": "Automation features",
+          "viral_score": 8
+        },
+        {
+          "id": "deadline-panic",
+          "name": "Deadline Panic Clock",
+          "giphyId": "tXL4FHPSnVJ0A",
+          "searchTerm": "clock deadline panic",
+          "emotion": "urgency stress",
+          "use_case": "Time-saving features",
+          "viral_score": 8
+        },
+        {
+          "id": "success-thumbs-up",
+          "name": "Big Thumbs Up Success",
+          "giphyId": "111ebonMs90YLu",
+          "searchTerm": "thumbs up success",
+          "emotion": "approval",
+          "use_case": "User satisfaction or testimonials",
+          "viral_score": 7
         }
       ]
     },
@@ -97,6 +187,96 @@
           "emotion": "eager buying",
           "use_case": "Irresistible product launches",
           "viral_score": 10
+        },
+        {
+          "id": "credit-card-swipe",
+          "name": "Credit Card Swipe Fast",
+          "giphyId": "67ThRZlYBvibtdF9JH",
+          "searchTerm": "credit card swipe",
+          "emotion": "impulse buying",
+          "use_case": "Flash sales or limited offers",
+          "viral_score": 9
+        },
+        {
+          "id": "shopping-cart-racing",
+          "name": "Racing with Shopping Cart",
+          "giphyId": "3o6Zt6ML6BklcajjsA",
+          "searchTerm": "shopping cart racing",
+          "emotion": "shopping frenzy",
+          "use_case": "Black Friday or big sale events",
+          "viral_score": 9
+        },
+        {
+          "id": "happy-shopping-dance",
+          "name": "Happy Shopping Dance",
+          "giphyId": "26tPqTOGf36VdJlbG",
+          "searchTerm": "happy shopping dance",
+          "emotion": "shopping joy",
+          "use_case": "Customer satisfaction stories",
+          "viral_score": 8
+        },
+        {
+          "id": "delivery-truck",
+          "name": "Fast Delivery Truck",
+          "giphyId": "l0ExbnGIX9sMFS7PG",
+          "searchTerm": "delivery truck fast",
+          "emotion": "quick delivery",
+          "use_case": "Fast shipping announcements",
+          "viral_score": 7
+        },
+        {
+          "id": "sale-sign-flashing",
+          "name": "Flashing Sale Sign",
+          "giphyId": "Y4rZAyCiJLXLq",
+          "searchTerm": "sale sign flashing",
+          "emotion": "urgency excitement",
+          "use_case": "Sale announcements",
+          "viral_score": 8
+        },
+        {
+          "id": "fashion-runway",
+          "name": "Fashion Runway Walk",
+          "giphyId": "3oKIPu1AxMWB2xlwl2",
+          "searchTerm": "fashion runway walk",
+          "emotion": "style confidence",
+          "use_case": "Fashion product launches",
+          "viral_score": 8
+        },
+        {
+          "id": "unboxing-surprise",
+          "name": "Surprise Unboxing Reaction",
+          "giphyId": "l0MYC0LajbaPoEADu",
+          "searchTerm": "unboxing surprise",
+          "emotion": "delightful surprise",
+          "use_case": "Product reveals or special packaging",
+          "viral_score": 9
+        },
+        {
+          "id": "piggy-bank-breaking",
+          "name": "Breaking Piggy Bank Savings",
+          "giphyId": "l378e4sJXwVnYgYGQ",
+          "searchTerm": "piggy bank breaking",
+          "emotion": "savings excitement",
+          "use_case": "Discount or savings campaigns",
+          "viral_score": 8
+        },
+        {
+          "id": "window-shopping",
+          "name": "Window Shopping Excited",
+          "giphyId": "3o7TKUZfJKUKuSWTZe",
+          "searchTerm": "window shopping",
+          "emotion": "browsing curiosity",
+          "use_case": "New collection previews",
+          "viral_score": 7
+        },
+        {
+          "id": "cashier-checkout",
+          "name": "Fast Checkout Process",
+          "giphyId": "3oKIPnAiaMCws8nOsE",
+          "searchTerm": "cashier checkout fast",
+          "emotion": "convenience",
+          "use_case": "Easy checkout features",
+          "viral_score": 7
         }
       ]
     },
@@ -138,6 +318,105 @@
           "emotion": "serenity",
           "use_case": "Meditation or yoga class promotions",
           "viral_score": 6
+        },
+        {
+          "id": "running-treadmill",
+          "name": "Running on Treadmill",
+          "giphyId": "5xtDarIW9p1afdGMHCw",
+          "searchTerm": "running treadmill",
+          "emotion": "cardio energy",
+          "use_case": "Cardio programs or running challenges",
+          "viral_score": 8
+        },
+        {
+          "id": "weightlifting-heavy",
+          "name": "Heavy Weightlifting Effort",
+          "giphyId": "l0HlQ7LRalQqdWfao",
+          "searchTerm": "weightlifting heavy",
+          "emotion": "determination",
+          "use_case": "Strength training programs",
+          "viral_score": 8
+        },
+        {
+          "id": "sweating-workout",
+          "name": "Sweating Intensely Workout",
+          "giphyId": "ZCU3YxmmD8lh6savbB",
+          "searchTerm": "sweating workout",
+          "emotion": "intense effort",
+          "use_case": "High-intensity training",
+          "viral_score": 8
+        },
+        {
+          "id": "protein-shake",
+          "name": "Drinking Protein Shake",
+          "giphyId": "3o6ZsZKbgw4QVWEbzq",
+          "searchTerm": "protein shake drinking",
+          "emotion": "nutrition focus",
+          "use_case": "Nutrition or supplement promotions",
+          "viral_score": 7
+        },
+        {
+          "id": "transformation-before-after",
+          "name": "Transformation Before After",
+          "giphyId": "3o7TKSjRrfIPjeiVyM",
+          "searchTerm": "transformation before after",
+          "emotion": "achievement pride",
+          "use_case": "Success stories or transformations",
+          "viral_score": 9
+        },
+        {
+          "id": "stretching-flexibility",
+          "name": "Stretching Flexibility",
+          "giphyId": "l0Iy69RBwtdmvwkIo",
+          "searchTerm": "stretching flexibility",
+          "emotion": "relaxation",
+          "use_case": "Flexibility or recovery programs",
+          "viral_score": 7
+        },
+        {
+          "id": "meditation-calm",
+          "name": "Meditation Calm State",
+          "giphyId": "3oKIPnAiaMCws8nOsE",
+          "searchTerm": "meditation calm",
+          "emotion": "inner peace",
+          "use_case": "Mindfulness or meditation apps",
+          "viral_score": 8
+        },
+        {
+          "id": "jumping-rope",
+          "name": "Jumping Rope Fast",
+          "giphyId": "l0HlPystfePnYIxWg",
+          "searchTerm": "jumping rope",
+          "emotion": "energetic cardio",
+          "use_case": "Cardio challenges",
+          "viral_score": 7
+        },
+        {
+          "id": "high-five-workout-buddy",
+          "name": "Workout Buddy High Five",
+          "giphyId": "g9582DNuQppxC",
+          "searchTerm": "high five workout",
+          "emotion": "team motivation",
+          "use_case": "Group fitness or partner workouts",
+          "viral_score": 8
+        },
+        {
+          "id": "measuring-waist",
+          "name": "Measuring Waist Progress",
+          "giphyId": "3o6ZtafpgSpvIaKhMI",
+          "searchTerm": "measuring waist",
+          "emotion": "progress tracking",
+          "use_case": "Weight loss programs",
+          "viral_score": 8
+        },
+        {
+          "id": "gym-selfie",
+          "name": "Gym Selfie Mirror",
+          "giphyId": "3ohzdMDbNXvnWdeOZi",
+          "searchTerm": "gym selfie mirror",
+          "emotion": "fitness pride",
+          "use_case": "Progress sharing or community",
+          "viral_score": 8
         }
       ]
     },
@@ -188,6 +467,96 @@
           "emotion": "profitable results",
           "use_case": "ROI and revenue results",
           "viral_score": 9
+        },
+        {
+          "id": "megaphone-announcement",
+          "name": "Megaphone Announcement",
+          "giphyId": "l0Iy6nmyS5p7hIAso",
+          "searchTerm": "megaphone announcement",
+          "emotion": "loud promotion",
+          "use_case": "Campaign announcements",
+          "viral_score": 8
+        },
+        {
+          "id": "social-media-likes",
+          "name": "Social Media Likes Flooding",
+          "giphyId": "ZVik7pBtu9dNS",
+          "searchTerm": "likes flooding social",
+          "emotion": "social validation",
+          "use_case": "Social proof or engagement",
+          "viral_score": 9
+        },
+        {
+          "id": "target-bullseye",
+          "name": "Hitting Target Bullseye",
+          "giphyId": "3o7TKSjRrfIPjeiVyM",
+          "searchTerm": "target bullseye hit",
+          "emotion": "precision success",
+          "use_case": "Targeted campaigns or segmentation",
+          "viral_score": 8
+        },
+        {
+          "id": "typing-fast-content",
+          "name": "Fast Content Creation Typing",
+          "giphyId": "13GIgrGdslD9oQ",
+          "searchTerm": "typing fast creating",
+          "emotion": "productive creation",
+          "use_case": "Content creation tools",
+          "viral_score": 7
+        },
+        {
+          "id": "brainstorming-ideas",
+          "name": "Brainstorming Creative Ideas",
+          "giphyId": "3o7btPCcdNniyf0ArS",
+          "searchTerm": "brainstorming ideas lightbulb",
+          "emotion": "creative thinking",
+          "use_case": "Strategy sessions or ideation",
+          "viral_score": 8
+        },
+        {
+          "id": "analytics-dashboard",
+          "name": "Analytics Dashboard Rising",
+          "giphyId": "l0HlQ7LRalQqdWfao",
+          "searchTerm": "analytics dashboard",
+          "emotion": "data insights",
+          "use_case": "Analytics or reporting features",
+          "viral_score": 7
+        },
+        {
+          "id": "influencer-camera",
+          "name": "Influencer Recording Content",
+          "giphyId": "3o6Zt6ML6BklcajjsA",
+          "searchTerm": "influencer camera recording",
+          "emotion": "content creation",
+          "use_case": "Influencer marketing",
+          "viral_score": 8
+        },
+        {
+          "id": "email-inbox-flooding",
+          "name": "Email Inbox Flooding",
+          "giphyId": "tXL4FHPSnVJ0A",
+          "searchTerm": "email inbox flooding",
+          "emotion": "email overwhelm",
+          "use_case": "Email marketing campaigns",
+          "viral_score": 8
+        },
+        {
+          "id": "campaign-launch",
+          "name": "Campaign Launch Rocket",
+          "giphyId": "3ohs4rclkSSrNGSlFK",
+          "searchTerm": "rocket launch campaign",
+          "emotion": "launch excitement",
+          "use_case": "New campaign launches",
+          "viral_score": 9
+        },
+        {
+          "id": "audience-applause",
+          "name": "Audience Applause Standing",
+          "giphyId": "2xO491sY6f0cM",
+          "searchTerm": "applause audience standing",
+          "emotion": "audience approval",
+          "use_case": "Campaign reception or testimonials",
+          "viral_score": 8
         }
       ]
     },
@@ -238,6 +607,96 @@
           "emotion": "amazement",
           "use_case": "Shocking reveals or plot twists",
           "viral_score": 9
+        },
+        {
+          "id": "dancing-celebration",
+          "name": "Dancing Victory Celebration",
+          "giphyId": "l0MYt5jPR6QX5pnqM",
+          "searchTerm": "dancing celebration party",
+          "emotion": "party energy",
+          "use_case": "Music releases or concert promos",
+          "viral_score": 9
+        },
+        {
+          "id": "crying-emotional",
+          "name": "Crying Emotional Scene",
+          "giphyId": "d2lcHJTG5Tscg",
+          "searchTerm": "crying emotional",
+          "emotion": "emotional impact",
+          "use_case": "Dramatic or emotional content",
+          "viral_score": 8
+        },
+        {
+          "id": "laughing-hysterically",
+          "name": "Laughing Hysterically Comedy",
+          "giphyId": "3oEjHI8WJv4x6UPDB6",
+          "searchTerm": "laughing hysterically",
+          "emotion": "comedy hilarity",
+          "use_case": "Comedy shows or funny content",
+          "viral_score": 9
+        },
+        {
+          "id": "suspense-thriller",
+          "name": "Suspense Thriller Tension",
+          "giphyId": "l0MYC0LajbaPoEADu",
+          "searchTerm": "suspense thriller",
+          "emotion": "suspenseful tension",
+          "use_case": "Thriller or mystery content",
+          "viral_score": 8
+        },
+        {
+          "id": "red-carpet-glamour",
+          "name": "Red Carpet Glamour Walk",
+          "giphyId": "3oKIPu1AxMWB2xlwl2",
+          "searchTerm": "red carpet glamour",
+          "emotion": "celebrity glamour",
+          "use_case": "Award shows or premieres",
+          "viral_score": 8
+        },
+        {
+          "id": "concert-crowd",
+          "name": "Concert Crowd Jumping",
+          "giphyId": "3ohzdMDbNXvnWdeOZi",
+          "searchTerm": "concert crowd jumping",
+          "emotion": "concert energy",
+          "use_case": "Live music or festival promos",
+          "viral_score": 9
+        },
+        {
+          "id": "movie-premiere",
+          "name": "Movie Premiere Excitement",
+          "giphyId": "5GoVLqeAOo6PK",
+          "searchTerm": "movie premiere excited",
+          "emotion": "premiere hype",
+          "use_case": "Movie launches or trailers",
+          "viral_score": 8
+        },
+        {
+          "id": "streaming-loading",
+          "name": "Streaming Content Loading",
+          "giphyId": "tXL4FHPSnVJ0A",
+          "searchTerm": "loading streaming",
+          "emotion": "anticipation waiting",
+          "use_case": "Content drop countdowns",
+          "viral_score": 7
+        },
+        {
+          "id": "tv-remote-flipping",
+          "name": "TV Remote Channel Flipping",
+          "giphyId": "l41YqKTI3pFKuI9CE",
+          "searchTerm": "tv remote flipping",
+          "emotion": "channel surfing",
+          "use_case": "Content variety or selection",
+          "viral_score": 7
+        },
+        {
+          "id": "plot-twist-shock",
+          "name": "Plot Twist Shocking Reveal",
+          "giphyId": "SDogLD4FOZMM8",
+          "searchTerm": "plot twist shocked",
+          "emotion": "shocking surprise",
+          "use_case": "Plot reveals or surprises",
+          "viral_score": 9
         }
       ]
     },
@@ -287,6 +746,96 @@
           "searchTerm": "success celebration happy",
           "emotion": "achievement joy",
           "use_case": "Skill mastery or learning milestones",
+          "viral_score": 8
+        },
+        {
+          "id": "reading-books-stacked",
+          "name": "Reading Stacked Books",
+          "giphyId": "l41YqKTI3pFKuI9CE",
+          "searchTerm": "reading books stacked",
+          "emotion": "knowledge pursuit",
+          "use_case": "Course material or reading lists",
+          "viral_score": 7
+        },
+        {
+          "id": "typing-notes-fast",
+          "name": "Taking Notes Fast Typing",
+          "giphyId": "13GIgrGdslD9oQ",
+          "searchTerm": "typing notes fast",
+          "emotion": "active learning",
+          "use_case": "Note-taking features or study tools",
+          "viral_score": 7
+        },
+        {
+          "id": "teacher-explaining",
+          "name": "Teacher Explaining Concept",
+          "giphyId": "3o7btPCcdNniyf0ArS",
+          "searchTerm": "teacher explaining",
+          "emotion": "instructive guidance",
+          "use_case": "Instructor-led courses",
+          "viral_score": 7
+        },
+        {
+          "id": "online-class-laptop",
+          "name": "Online Class on Laptop",
+          "giphyId": "ZVik7pBtu9dNS",
+          "searchTerm": "laptop online class",
+          "emotion": "remote learning",
+          "use_case": "Online learning platforms",
+          "viral_score": 8
+        },
+        {
+          "id": "test-passing-celebration",
+          "name": "Passing Test Celebration",
+          "giphyId": "l0MYt5jPR6QX5pnqM",
+          "searchTerm": "passing test celebration",
+          "emotion": "test success",
+          "use_case": "Exam prep or certification success",
+          "viral_score": 8
+        },
+        {
+          "id": "confused-thinking",
+          "name": "Confused Thinking Hard",
+          "giphyId": "3o7btPCcdNniyf0ArS",
+          "searchTerm": "confused thinking",
+          "emotion": "problem solving",
+          "use_case": "Complex topics or problem-solving",
+          "viral_score": 7
+        },
+        {
+          "id": "certificate-award",
+          "name": "Receiving Certificate Award",
+          "giphyId": "3ohs7KViF6rA4aan5u",
+          "searchTerm": "certificate award",
+          "emotion": "credential pride",
+          "use_case": "Certification programs",
+          "viral_score": 8
+        },
+        {
+          "id": "library-books",
+          "name": "Library Full of Books",
+          "giphyId": "l0Iy69RBwtdmvwkIo",
+          "searchTerm": "library books many",
+          "emotion": "resource abundance",
+          "use_case": "Course libraries or resources",
+          "viral_score": 7
+        },
+        {
+          "id": "quiz-answering",
+          "name": "Answering Quiz Questions",
+          "giphyId": "3o6ZtafpgSpvIaKhMI",
+          "searchTerm": "quiz answering",
+          "emotion": "testing knowledge",
+          "use_case": "Interactive quizzes or assessments",
+          "viral_score": 7
+        },
+        {
+          "id": "skill-mastery",
+          "name": "Skill Mastery Achievement",
+          "giphyId": "TgMdeQRF6BYkg",
+          "searchTerm": "skill mastery achievement",
+          "emotion": "competency pride",
+          "use_case": "Skill development programs",
           "viral_score": 8
         }
       ]
